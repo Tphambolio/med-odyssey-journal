@@ -9,7 +9,7 @@ interface CommentSectionProps {
   onAuthRequired: () => void;
 }
 
-interface CommentWithProfile extends Comment {
+interface CommentWithProfile extends Omit<Comment, 'user_profile' | 'replies'> {
   user_profile: UserProfile | null;
   replies: CommentWithProfile[];
 }

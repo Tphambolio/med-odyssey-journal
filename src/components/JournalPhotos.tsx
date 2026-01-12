@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import { Plus, X, Loader2, Trash2, ImageIcon } from 'lucide-react';
+import { Plus, X, Loader2, ImageIcon } from 'lucide-react';
 import { usePhotos } from '../hooks/usePhotos';
 import { getPhotoUrl } from '../lib/supabase';
 import type { Photo } from '../types';

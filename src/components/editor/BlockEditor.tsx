@@ -1,9 +1,9 @@
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect } from 'react';
 import { TextBlockEditor } from './TextBlockEditor';
 import { PhotoBlockEditor } from './PhotoBlockEditor';
 import { BlockToolbar } from './BlockToolbar';
 import { generateBlockId, createTextBlock } from '../../utils/blocks';
-import type { JournalBlock, TextBlock, PhotoBlock, Photo } from '../../types';
+import type { JournalBlock, PhotoBlock, Photo } from '../../types';
 
 interface BlockEditorProps {
   blocks: JournalBlock[];

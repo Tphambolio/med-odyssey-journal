@@ -1,13 +1,16 @@
-import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import { Compass, MessageCircle, Heart, Calendar, MapPin } from 'lucide-react';
+import { useState, useEffect, useMemo } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+import { Compass, MessageCircle, Heart, Calendar, MapPin, Map, ChevronDown, ChevronUp } from 'lucide-react';
 import { supabase } from '../../lib/supabase';
 import { useAuth } from '../../context/AuthContext';
 import { AuthModal } from '../AuthModal';
-import type { JournalEntry, Stop, ReactionCounts } from '../../types';
+import { RouteMap } from '../map';
+import type { JournalEntry, Stop, ReactionCounts, Phase } from '../../types';
 import stopsData from '../../data/stops.json';
+import phasesData from '../../data/phases.json';
 
 const stops = stopsData as Stop[];
+const phases = phasesData as Phase[];
 
 interface PublicJournal extends JournalEntry {
   stop?: Stop;
@@ -21,9 +24,24 @@ function slugify(name: string): string {
 
 export function BlogHub() {
   const { user } = useAuth();
+  const navigate = useNavigate();
   const [journals, setJournals] = useState<PublicJournal[]>([]);
   const [loading, setLoading] = useState(true);
   const [authModalOpen, setAuthModalOpen] = useState(false);
+  const [showMap, setShowMap] = useState(true);
+
+  // Get stop IDs that have public journals
+  const stopsWithJournals = useMemo(() => {
+    return [...new Set(journals.map((j) => j.stop_id))];
+  }, [journals]);
+
+  // Handle map stop click - navigate to first journal for that stop
+  const handleStopClick = (stop: Stop) => {
+    const journal = journals.find((j) => j.stop_id === stop.id);
+    if (journal) {
+      navigate(`/blog/${slugify(stop.name)}/${journal.id}`);
+    }
+  };
 
   useEffect(() => {
     async function fetchPublicJournals() {
@@ -138,13 +156,53 @@ export function BlogHub() {
 
       <main className="max-w-4xl mx-auto px-4 py-8">
         {/* Hero Section */}
-        <div className="text-center mb-12">
+        <div className="text-center mb-8">
           <h1 className="text-4xl font-bold text-white mb-4">
             Mediterranean Odyssey 2026-2027
           </h1>
           <p className="text-xl text-slate-400 max-w-2xl mx-auto">
             Follow our sailing adventure across 8 countries. Stories, photos, and memories from the journey.
           </p>
+        </div>
+
+        {/* Route Map Section */}
+        <div className="mb-8">
+          <button
+            onClick={() => setShowMap(!showMap)}
+            className="flex items-center gap-2 text-slate-400 hover:text-white transition-colors mb-4"
+          >
+            <Map className="w-5 h-5" />
+            <span className="font-medium">Route Map</span>
+            {showMap ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
+          </button>
+
+          {showMap && (
+            <div className="relative">
+              <RouteMap
+                stops={stops}
+                phases={phases}
+                height="350px"
+                highlightedStops={stopsWithJournals}
+                onStopClick={handleStopClick}
+                showAllStops={false}
+                className="border border-slate-700"
+              />
+              <div className="absolute bottom-3 right-3">
+                <Link
+                  to="/map"
+                  className="flex items-center gap-2 px-3 py-2 bg-slate-800/90 backdrop-blur-sm text-sm text-slate-300 hover:text-white rounded-lg border border-slate-700 transition-colors"
+                >
+                  <Map className="w-4 h-4" />
+                  Full Map
+                </Link>
+              </div>
+              {stopsWithJournals.length > 0 && (
+                <p className="text-xs text-slate-500 mt-2 text-center">
+                  Click on a marker to read the journal entry
+                </p>
+              )}
+            </div>
+          )}
         </div>
 
         {/* Journals Grid */}

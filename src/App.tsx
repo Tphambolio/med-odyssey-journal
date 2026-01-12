@@ -8,6 +8,7 @@ import { StopCard } from './components/StopCard';
 import { StopDetail } from './components/StopDetail';
 import { BlogHub } from './components/blog/BlogHub';
 import { PublicJournalPage } from './components/blog/PublicJournalPage';
+import { MapPage } from './pages/MapPage';
 import type { Stop, Phase } from './types';
 import stopsData from './data/stops.json';
 import phasesData from './data/phases.json';
@@ -172,9 +173,10 @@ function App() {
     <BrowserRouter>
       <AuthProvider>
         <Routes>
-          {/* Public blog routes */}
+          {/* Public routes */}
           <Route path="/blog" element={<BlogHub />} />
           <Route path="/blog/:stopSlug/:journalId" element={<PublicJournalPage />} />
+          <Route path="/map" element={<MapPage />} />
 
           {/* Private app routes */}
           <Route path="/*" element={<AppContent />} />
