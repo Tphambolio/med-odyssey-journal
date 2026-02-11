@@ -165,7 +165,7 @@ export function MapPage() {
                 </div>
                 <div className="flex justify-between">
                   <span>Countries</span>
-                  <span className="text-white">{phases.length}</span>
+                  <span className="text-white">{[...new Set(stops.map(s => s.country))].length}</span>
                 </div>
               </div>
             </div>

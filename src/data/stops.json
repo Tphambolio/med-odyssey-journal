@@ -9,9 +9,8 @@
     "arrival": "2026-07-15",
     "departure": "2026-07-17",
     "duration": "2 days",
-    "distanceToNext": 25,
+    "distanceToNext": 20,
     "phase": "Croatia",
-    "schengen": true,
     "season": "summer",
     "marinaName": "Marina Kornati",
     "marinaUrl": "https://www.marinakornati.com/",
@@ -19,9 +18,15 @@
     "cultureUrl": "https://en.wikipedia.org/wiki/Biograd_na_Moru",
     "notes": "Journey begins - Gateway to Kornati Islands",
     "wikiUrl": "https://en.wikipedia.org/wiki/Biograd_na_Moru",
-    "foodUrl": "https://www.biograd.hr/en/gastronomy/",
-    "adventureUrl": "https://www.biograd.hr/en/activities/",
-    "provisionsUrl": "https://www.marinakornati.com/services/"
+    "foodUrl": "https://www.tripadvisor.com/Restaurants-g608702-Biograd_na_Moru_Zadar_County_Dalmatia.html",
+    "adventureUrl": "https://www.tripadvisor.com/Attractions-g608702-Activities-Biograd_na_Moru_Zadar_County_Dalmatia.html",
+    "provisionsUrl": "https://www.navily.com/port/marina-kornati/1281",
+    "routeWaypoints": [
+      [
+        43.71499517028183,
+        15.448536642640656
+      ]
+    ]
   },
   {
     "id": 2,
@@ -35,8 +40,7 @@
     "duration": "2 days",
     "distanceToNext": 53,
     "phase": "Croatia",
-    "schengen": true,
-    "marinaUrl": "https://www.navily.com/mouillage/levrnaka/5f3fdcaa4b0e55001fd09c37",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Luka_Tela%C5%A1%C4%87ica",
     "cultureHighlight": "Kornati National Park",
     "cultureUrl": "https://en.wikipedia.org/wiki/Kornati",
     "notes": "National park",
@@ -44,7 +48,14 @@
     "foodUrl": "https://www.np-kornati.hr/index.php?lang=en",
     "adventureUrl": "https://www.kornati.hr/en/national-park-kornati/",
     "provisionsUrl": "https://www.jamyachtsupply.com/",
-    "season": "summer"
+    "season": "summer",
+    "routeWaypoints": [
+      [
+        43.70320026963036,
+        15.449920887684547
+      ]
+    ],
+    "marinaName": "Telašćica Bay (Luka Telašćica)"
   },
   {
     "id": 3,
@@ -58,7 +69,6 @@
     "duration": "2 days",
     "distanceToNext": 51,
     "phase": "Croatia",
-    "schengen": true,
     "marinaName": "Marina Mandalina",
     "marinaUrl": "https://www.d-marin.com/en/marinas/croatia/sibenik",
     "cultureHighlight": "St James Cathedral (UNESCO)",
@@ -68,7 +78,17 @@
     "foodUrl": "https://www.sibenik-tourism.hr",
     "adventureUrl": "https://www.sibenik-tourism.hr",
     "provisionsUrl": "https://www.jamyachtsupply.com/",
-    "season": "summer"
+    "season": "summer",
+    "routeWaypoints": [
+      [
+        43.65,
+        16
+      ],
+      [
+        43.5,
+        16.2
+      ]
+    ]
   },
   {
     "id": 4,
@@ -80,9 +100,8 @@
     "arrival": "2026-07-21",
     "departure": "2026-07-24",
     "duration": "3 days",
-    "distanceToNext": 37,
+    "distanceToNext": 39,
     "phase": "Croatia",
-    "schengen": true,
     "marinaName": "ACI Marina Split",
     "marinaUrl": "https://aci-marinas.com/marina/aci-split/",
     "cultureHighlight": "Diocletian's Palace (UNESCO)",
@@ -92,31 +111,42 @@
     "foodUrl": "https://visitsplit.com",
     "adventureUrl": "https://visitsplit.com",
     "provisionsUrl": "https://www.jamyachtsupply.com/",
-    "season": "summer"
+    "season": "summer",
+    "routeWaypoints": [
+      [
+        43.37687045417689,
+        16.118171711175773
+      ]
+    ]
   },
   {
     "id": 5,
-    "name": "Hvar",
+    "name": "Pakleni Islands (Hvar)",
     "country": "Croatia",
-    "lat": 43.1725,
-    "lon": 16.4434,
-    "type": "marina",
+    "lat": 43.16,
+    "lon": 16.39,
+    "type": "anchorage",
     "arrival": "2026-07-24",
     "departure": "2026-07-26",
     "duration": "2 days",
-    "distanceToNext": 32,
+    "distanceToNext": 27,
     "phase": "Croatia",
-    "schengen": true,
     "marinaName": "ACI Marina Palmižana",
-    "marinaUrl": "https://aci-marinas.com/marina/aci-palmizana/",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Pakleni_archipelago",
     "cultureHighlight": "Hvar Town & Fortica fortress",
     "cultureUrl": "https://en.wikipedia.org/wiki/Hvar",
-    "notes": "Lively island town",
+    "notes": "Protected anchorage at Pakleni Islands; dinghy 10min to Hvar town for provisions & culture",
     "wikiUrl": "https://en.wikipedia.org/wiki/Hvar",
     "foodUrl": "https://www.tzhvar.hr/en",
     "adventureUrl": "https://www.tzhvar.hr/en",
     "provisionsUrl": "https://www.jamyachtsupply.com/",
-    "season": "summer"
+    "season": "summer",
+    "routeWaypoints": [
+      [
+        43.38300102062039,
+        16.13349014190043
+      ]
+    ]
   },
   {
     "id": 6,
@@ -130,9 +160,8 @@
     "duration": "2 days",
     "distanceToNext": 85,
     "phase": "Croatia",
-    "schengen": true,
-    "marinaName": "",
-    "marinaUrl": "https://www.navily.com/mouillage/komiza/5f0df5c6ed6dc1001fb7bc79",
+    "marinaName": "Komiža Harbour",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Komi%C5%BEa",
     "cultureHighlight": "Fishing village on Vis Island",
     "cultureUrl": "https://en.wikipedia.org/wiki/Komi%C5%BEa",
     "notes": "Remote Vis island",
@@ -140,31 +169,50 @@
     "foodUrl": "https://www.vis-tourism.com/en/",
     "adventureUrl": "https://www.vis-tourism.com/en/",
     "provisionsUrl": "https://www.jamyachtsupply.com/",
-    "season": "summer"
+    "season": "summer",
+    "routeWaypoints": [
+      [
+        42.72939805929077,
+        16.330772553669057
+      ],
+      [
+        43.01181418259695,
+        16.609145615263937
+      ],
+      [
+        43.04458324919337,
+        16.87329825371262
+      ]
+    ]
   },
   {
     "id": 7,
     "name": "Korčula",
     "country": "Croatia",
-    "lat": 42.9603,
-    "lon": 17.1346,
-    "type": "marina",
+    "lat": 42.958,
+    "lon": 17.125,
+    "type": "anchorage",
     "arrival": "2026-07-28",
     "departure": "2026-07-30",
     "duration": "2 days",
     "distanceToNext": 47,
     "phase": "Croatia",
-    "schengen": true,
-    "marinaName": "ACI Marina Korčula",
-    "marinaUrl": "https://aci-marinas.com/marina/aci-korcula/",
+    "marinaName": "Uvala Luka Anchorage (Korčula)",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Korcula_Town",
     "cultureHighlight": "Korčula Old Town (Marco Polo's birthplace)",
     "cultureUrl": "https://en.wikipedia.org/wiki/Kor%C4%8Dula",
-    "notes": "Historic town",
+    "notes": "Protected anchorage west of old town; dinghy to historic center, Marco Polo museum",
     "wikiUrl": "https://en.wikipedia.org/wiki/Kor%C4%8Dula",
     "foodUrl": "https://www.visitkorcula.eu",
     "adventureUrl": "https://www.visitkorcula.eu",
     "provisionsUrl": "https://www.jamyachtsupply.com/",
-    "season": "summer"
+    "season": "summer",
+    "routeWaypoints": [
+      [
+        42.615780174892826,
+        17.258168469630068
+      ]
+    ]
   },
   {
     "id": 8,
@@ -178,8 +226,7 @@
     "duration": "2 days",
     "distanceToNext": 42,
     "phase": "Croatia",
-    "schengen": true,
-    "marinaUrl": "https://www.navily.com/mouillage/okuklje/5f0df5faed6dc1001fb7bc81",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Polace",
     "cultureHighlight": "Mljet National Park & salt lakes",
     "cultureUrl": "https://en.wikipedia.org/wiki/Mljet_National_Park",
     "notes": "National park",
@@ -187,7 +234,14 @@
     "foodUrl": "https://en.wikipedia.org/wiki/Mljet_National_Park",
     "adventureUrl": "https://en.wikipedia.org/wiki/Mljet_National_Park",
     "provisionsUrl": "https://www.jamyachtsupply.com/",
-    "season": "summer"
+    "season": "summer",
+    "routeWaypoints": [
+      [
+        42.67193739920207,
+        17.85709799954577
+      ]
+    ],
+    "marinaName": "Polače"
   },
   {
     "id": 9,
@@ -201,7 +255,6 @@
     "duration": "3 days",
     "distanceToNext": 40,
     "phase": "Croatia",
-    "schengen": true,
     "marinaName": "ACI Marina Dubrovnik",
     "marinaUrl": "https://aci-marinas.com/marina/aci-dubrovnik/",
     "cultureHighlight": "Dubrovnik Old Town (UNESCO)",
@@ -211,7 +264,13 @@
     "foodUrl": "https://visitdubrovnik.hr",
     "adventureUrl": "https://www.dubrovnikpass.com/",
     "provisionsUrl": "https://www.jamyachtsupply.com/",
-    "season": "summer"
+    "season": "summer",
+    "routeWaypoints": [
+      [
+        42.318894279262395,
+        18.092386350683157
+      ]
+    ]
   },
   {
     "id": 10,
@@ -221,12 +280,11 @@
     "lon": 18.531,
     "type": "anchorage",
     "arrival": "2026-08-04",
-    "departure": "2026-08-06",
-    "duration": "2 days",
-    "distanceToNext": 20,
+    "departure": "2026-08-07",
+    "duration": "3 days",
+    "distanceToNext": 6,
     "phase": "Montenegro",
-    "schengen": false,
-    "marinaUrl": "https://www.navily.com/mouillage/herceg-novi/5f0df5faed6dc1001fb7bc83",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Herceg_Novi",
     "cultureHighlight": "Forte Mare & Old Town",
     "cultureUrl": "https://en.wikipedia.org/wiki/Herceg_Novi",
     "notes": "Entry to Montenegro",
@@ -234,21 +292,83 @@
     "foodUrl": "https://www.montenegro.travel/en",
     "adventureUrl": "https://www.montenegro.travel/en",
     "provisionsUrl": "https://www.yachtpantry.com/montenegro/about-us",
-    "season": "summer"
+    "season": "summer",
+    "marinaName": "Herceg Novi Harbour",
+    "routeWaypoints": [
+      [
+        42.46,
+        18.55
+      ]
+    ]
   },
   {
     "id": 11,
+    "name": "Rose",
+    "country": "Montenegro",
+    "lat": 42.4897,
+    "lon": 18.581,
+    "type": "anchorage",
+    "arrival": "2026-08-07",
+    "departure": "2026-08-09",
+    "duration": "2 days",
+    "distanceToNext": 10,
+    "phase": "Montenegro",
+    "season": "summer",
+    "marinaName": "Rose Village Anchorage",
+    "marinaUrl": "https://en.wikipedia.org/wiki/Lu%C5%A1tica",
+    "cultureHighlight": "Stone fishing village at Bay of Kotor entrance",
+    "notes": "Quiet anchorage, pristine swimming, Venetian-era architecture",
+    "routeWaypoints": [
+      [
+        42.48,
+        18.62
+      ],
+      [
+        42.475,
+        18.68
+      ]
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Perast",
+    "country": "Montenegro",
+    "lat": 42.4867,
+    "lon": 18.698,
+    "type": "anchorage",
+    "arrival": "2026-08-09",
+    "departure": "2026-08-12",
+    "duration": "3 days",
+    "distanceToNext": 9,
+    "phase": "Montenegro",
+    "season": "summer",
+    "marinaName": "Perast Harbour",
+    "marinaUrl": "https://en.wikipedia.org/wiki/Perast",
+    "cultureHighlight": "Our Lady of the Rocks & St. George islands",
+    "notes": "UNESCO Bay of Kotor gem, baroque palaces, two island churches",
+    "routeWaypoints": [
+      [
+        42.465,
+        18.73
+      ],
+      [
+        42.44,
+        18.76
+      ]
+    ]
+  },
+  {
+    "id": 13,
     "name": "Kotor",
     "country": "Montenegro",
     "lat": 42.4247,
     "lon": 18.7712,
     "type": "marina",
-    "arrival": "2026-08-06",
-    "departure": "2026-08-08",
-    "duration": "2 days",
-    "distanceToNext": 6,
+    "arrival": "2026-08-12",
+    "departure": "2026-08-16",
+    "duration": "4 days",
+    "distanceToNext": 7,
     "phase": "Montenegro",
-    "schengen": false,
     "marinaName": "Kotor Town Quay",
     "marinaUrl": "https://www.portofkotor.com/en/marina-kotor/",
     "cultureHighlight": "Kotor Old Town (UNESCO)",
@@ -258,49 +378,124 @@
     "foodUrl": "https://www.montenegro.travel/en",
     "adventureUrl": "https://www.montenegro.travel/en",
     "provisionsUrl": "https://www.yachtpantry.com/montenegro/about-us",
-    "season": "summer"
+    "season": "summer",
+    "routeWaypoints": [
+      [
+        42.45,
+        18.75
+      ],
+      [
+        42.465,
+        18.72
+      ],
+      [
+        42.45,
+        18.69
+      ]
+    ]
   },
   {
-    "id": 12,
+    "id": 14,
     "name": "Tivat",
     "country": "Montenegro",
-    "lat": 42.4319,
-    "lon": 18.6961,
-    "type": "marina",
-    "arrival": "2026-08-08",
-    "departure": "2026-08-10",
+    "lat": 42.435,
+    "lon": 18.685,
+    "type": "anchorage",
+    "arrival": "2026-08-16",
+    "departure": "2026-08-18",
     "duration": "2 days",
-    "distanceToNext": 20,
+    "distanceToNext": 10,
     "phase": "Montenegro",
-    "schengen": false,
     "marinaName": "Porto Montenegro",
-    "marinaUrl": "https://www.portomontenegro.com/",
-    "cultureHighlight": "Porto Montenegro superyacht marina",
+    "marinaUrl": "https://www.portomontenegro.com/marina/",
+    "cultureHighlight": "Naval Heritage Collection & Bay of Kotor views",
     "cultureUrl": "https://en.wikipedia.org/wiki/Tivat",
-    "notes": "Luxury marina",
+    "notes": "Protected anchorage in Bay of Tivat; dinghy to town for provisions, naval museum",
     "wikiUrl": "https://en.wikipedia.org/wiki/Tivat",
     "foodUrl": "https://www.montenegro.travel/en",
     "adventureUrl": "https://www.montenegro.travel/en",
     "provisionsUrl": "https://www.yachtpantry.com/montenegro/about-us",
-    "season": "summer"
+    "season": "summer",
+    "routeWaypoints": [
+      [
+        42.422058442580806,
+        18.63161914114998
+      ],
+      [
+        42.44471501324951,
+        18.569643905728608
+      ],
+      [
+        42.292243356588486,
+        18.306581822675874
+      ]
+    ]
   },
   {
-    "id": 13,
+    "id": 15,
+    "name": "Lustica Bay",
+    "country": "Montenegro",
+    "lat": 42.383,
+    "lon": 18.593,
+    "type": "anchorage",
+    "arrival": "2026-08-18",
+    "departure": "2026-08-20",
+    "duration": "2 days",
+    "distanceToNext": 5,
+    "phase": "Montenegro",
+    "season": "summer",
+    "marinaName": "Lustica Bay Anchorage",
+    "marinaUrl": "https://en.wikipedia.org/wiki/Lu%C5%A1tica",
+    "cultureHighlight": "Lustica Peninsula & Blue Grotto",
+    "notes": "Sheltered bay, clear water, peninsula hiking trails",
+    "routeWaypoints": [
+      [
+        42.262101233442685,
+        18.621993805285253
+      ]
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Bigova",
+    "country": "Montenegro",
+    "lat": 42.3811,
+    "lon": 18.658,
+    "type": "anchorage",
+    "arrival": "2026-08-20",
+    "departure": "2026-08-22",
+    "duration": "2 days",
+    "distanceToNext": 18,
+    "phase": "Montenegro",
+    "season": "summer",
+    "marinaName": "Bigova Bay",
+    "marinaUrl": "https://en.wikipedia.org/wiki/Bigova",
+    "cultureHighlight": "Authentic fishing village harbour",
+    "notes": "Sheltered bay popular for anchoring, excellent seafood",
+    "routeWaypoints": [
+      [
+        42.22824233154733,
+        18.695287205516273
+      ]
+    ]
+  },
+  {
+    "id": 17,
     "name": "Budva",
     "country": "Montenegro",
-    "lat": 42.2855,
-    "lon": 18.8453,
-    "type": "marina",
-    "arrival": "2026-08-10",
-    "departure": "2026-08-12",
-    "duration": "2 days",
-    "distanceToNext": 30,
+    "lat": 42.29,
+    "lon": 18.84,
+    "type": "anchorage",
+    "arrival": "2026-08-22",
+    "departure": "2026-08-25",
+    "duration": "3 days",
+    "distanceToNext": 6,
     "phase": "Montenegro",
-    "schengen": false,
-    "marinaUrl": "https://www.navily.com/port/budva-marina/5f0df5faed6dc1001fb7bc86",
+    "marinaName": "Dukley Marina Budva",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Budva",
     "cultureHighlight": "Budva Old Town & Citadela",
     "cultureUrl": "https://en.wikipedia.org/wiki/Budva",
-    "notes": "Lively tourist spot",
+    "notes": "Anchorage in Budva Bay; dinghy or swim to beach, walk to medieval Old Town & Citadela",
     "wikiUrl": "https://en.wikipedia.org/wiki/Budva",
     "foodUrl": "https://www.montenegro.travel/en",
     "adventureUrl": "https://www.montenegro.travel/en",
@@ -308,43 +503,95 @@
     "season": "summer"
   },
   {
-    "id": 14,
+    "id": 18,
+    "name": "Sveti Stefan",
+    "country": "Montenegro",
+    "lat": 42.257,
+    "lon": 18.895,
+    "type": "anchorage",
+    "arrival": "2026-08-25",
+    "departure": "2026-08-27",
+    "duration": "2 days",
+    "distanceToNext": 7,
+    "phase": "Montenegro",
+    "season": "summer",
+    "marinaName": "Przno Bay Anchorage",
+    "marinaUrl": "https://en.wikipedia.org/wiki/Sveti_Stefan",
+    "cultureHighlight": "Iconic fortified island village",
+    "notes": "Anchor in Przno/Milocer Bay, spectacular coastal scenery",
+    "routeWaypoints": [
+      [
+        42.221531716067254,
+        18.906881112526445
+      ]
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Petrovac",
+    "country": "Montenegro",
+    "lat": 42.2062,
+    "lon": 18.941,
+    "type": "anchorage",
+    "arrival": "2026-08-27",
+    "departure": "2026-08-29",
+    "duration": "2 days",
+    "distanceToNext": 18,
+    "phase": "Montenegro",
+    "season": "summer",
+    "marinaName": "Petrovac Bay",
+    "marinaUrl": "https://en.wikipedia.org/wiki/Petrovac,_Montenegro",
+    "cultureHighlight": "Venetian Castello fortress & beach",
+    "notes": "Scenic beach town, Roman mosaics nearby",
+    "routeWaypoints": [
+      [
+        42.053311829631745,
+        18.947750360097732
+      ]
+    ]
+  },
+  {
+    "id": 20,
     "name": "Bar",
     "country": "Montenegro",
-    "lat": 42.0932,
-    "lon": 19.1006,
-    "type": "marina",
-    "arrival": "2026-08-12",
-    "departure": "2026-08-14",
-    "duration": "2 days",
+    "lat": 42.095,
+    "lon": 19.095,
+    "type": "anchorage",
+    "arrival": "2026-08-29",
+    "departure": "2026-09-01",
+    "duration": "3 days",
     "distanceToNext": 21,
     "phase": "Montenegro",
-    "schengen": false,
-    "marinaName": "Port of Bar",
-    "marinaUrl": "https://www.navily.com/port/port-of-bar/5f0df5faed6dc1001fb7bc88",
+    "marinaName": "Marina Bar",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Bar",
     "cultureHighlight": "Stari Bar ruins",
     "cultureUrl": "https://en.wikipedia.org/wiki/Bar,_Montenegro",
-    "notes": "Major harbor",
+    "notes": "Anchorage off Bar; dinghy to port for provisions, taxi to Stari Bar ancient ruins (4km)",
     "wikiUrl": "https://en.wikipedia.org/wiki/Bar,_Montenegro",
     "foodUrl": "https://www.montenegro.travel/en",
     "adventureUrl": "https://www.montenegro.travel/en",
     "provisionsUrl": "https://www.yachtpantry.com/montenegro/about-us",
-    "season": "summer"
+    "season": "summer",
+    "routeWaypoints": [
+      [
+        41.929089243850896,
+        19.023143034477986
+      ]
+    ]
   },
   {
-    "id": 15,
+    "id": 21,
     "name": "Ulcinj",
     "country": "Montenegro",
     "lat": 41.925,
     "lon": 19.2039,
     "type": "anchorage",
-    "arrival": "2026-08-14",
-    "departure": "2026-08-16",
+    "arrival": "2026-09-01",
+    "departure": "2026-09-03",
     "duration": "2 days",
-    "distanceToNext": 35,
+    "distanceToNext": 34,
     "phase": "Montenegro",
-    "schengen": false,
-    "marinaUrl": "https://www.navily.com/mouillage/ulcinj/5f0df5faed6dc1001fb7bc89",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Ulcinj",
     "cultureHighlight": "Old Town & Velika Plaza beach",
     "cultureUrl": "https://en.wikipedia.org/wiki/Ulcinj",
     "notes": "Last Montenegro stop",
@@ -352,93 +599,249 @@
     "foodUrl": "https://www.montenegro.travel/en",
     "adventureUrl": "https://www.montenegro.travel/en",
     "provisionsUrl": "https://www.yachtpantry.com/montenegro/about-us",
-    "season": "summer"
+    "season": "summer",
+    "routeWaypoints": [
+      [
+        41.841176648291075,
+        19.38613048100766
+      ]
+    ],
+    "marinaName": "Port Ulcinj"
   },
   {
-    "id": 16,
+    "id": 22,
     "name": "Shëngjin",
     "country": "Albania",
-    "lat": 41.8115,
-    "lon": 19.5933,
-    "type": "marina",
-    "arrival": "2026-08-16",
-    "departure": "2026-08-18",
+    "lat": 41.815,
+    "lon": 19.585,
+    "type": "anchorage",
+    "arrival": "2026-09-03",
+    "departure": "2026-09-05",
     "duration": "2 days",
     "distanceToNext": 57,
     "phase": "Albania",
-    "schengen": false,
-    "marinaName": "Marina Shëngjin",
-    "marinaUrl": "https://www.navily.com/port/marina-shengjin/602d7f3a328ce6001f520f88",
+    "marinaName": "Port of Shëngjin",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Shengjin",
     "cultureHighlight": "Albanian Riviera gateway",
     "cultureUrl": "https://en.wikipedia.org/wiki/Sh%C3%ABngjin",
-    "notes": "Entry to Albania",
+    "notes": "Entry to Albania; anchorage in bay, dinghy to beach & town for provisions",
     "wikiUrl": "https://en.wikipedia.org/wiki/Sh%C3%ABngjin",
-    "foodUrl": "https://albania.al",
-    "adventureUrl": "https://albania.al",
-    "provisionsUrl": "https://www.navily.com/port/marina-shengjin/602d7f3a328ce6001f520f88",
-    "season": "summer"
+    "foodUrl": "https://en.wikivoyage.org/wiki/Sh%C3%ABngjin",
+    "adventureUrl": "https://albaniavisit.com/destinations/shengjin/",
+    "provisionsUrl": "https://www.cruiserswiki.org/wiki/Shengjin",
+    "season": "summer",
+    "routeWaypoints": [
+      [
+        41.519503072933404,
+        19.190983805257705
+      ]
+    ]
   },
   {
-    "id": 17,
+    "id": 23,
     "name": "Durrës",
     "country": "Albania",
     "lat": 41.3134,
     "lon": 19.4449,
     "type": "anchorage",
-    "arrival": "2026-08-18",
-    "departure": "2026-08-20",
-    "duration": "2 days",
-    "distanceToNext": 94,
+    "arrival": "2026-09-05",
+    "departure": "2026-09-08",
+    "duration": "3 days",
+    "distanceToNext": 20,
     "phase": "Albania",
-    "schengen": false,
-    "marinaUrl": "https://www.navily.com/mouillage/durres/5f0df5faed6dc1001fb7bc90",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Durres",
     "cultureHighlight": "Roman Amphitheatre",
     "cultureUrl": "https://en.wikipedia.org/wiki/Durr%C3%ABs",
     "notes": "Historic port city",
     "wikiUrl": "https://en.wikipedia.org/wiki/Durr%C3%ABs",
-    "foodUrl": "https://albania.al/destinations/durres/",
-    "adventureUrl": "https://albania.al/destinations/durres/",
-    "provisionsUrl": "https://www.navily.com/mouillage/durres/5f0df5faed6dc1001fb7bc90",
-    "season": "summer"
+    "foodUrl": "https://en.wikivoyage.org/wiki/Durr%C3%ABs",
+    "adventureUrl": "https://en.wikivoyage.org/wiki/Durr%C3%ABs",
+    "provisionsUrl": "https://www.navily.com/mouillage/durres/26261",
+    "season": "summer",
+    "marinaName": "Port of Durrës",
+    "routeWaypoints": [
+      [
+        41.225584215458,
+        19.47431960205837
+      ],
+      [
+        41.177941831972554,
+        19.46434540806456
+      ],
+      [
+        41.033351211417276,
+        19.20036458914027
+      ]
+    ]
   },
   {
-    "id": 18,
+    "id": 24,
+    "name": "Karpen Beach",
+    "country": "Albania",
+    "lat": 41.1335,
+    "lon": 19.4842,
+    "type": "anchorage",
+    "arrival": "2026-09-08",
+    "departure": "2026-09-10",
+    "duration": "2 days",
+    "distanceToNext": 74,
+    "phase": "Albania",
+    "season": "summer",
+    "marinaName": "Karpen Beach Anchorage",
+    "marinaUrl": "https://en.wikipedia.org/wiki/Kavaj%C3%AB",
+    "cultureHighlight": "Quiet rural Albanian coast",
+    "notes": "Unspoiled beach anchorage south of Durrës",
+    "routeWaypoints": [
+      [
+        41.054527067304306,
+        19.188600788183663
+      ],
+      [
+        40.80250959292046,
+        19.362102404113273
+      ],
+      [
+        40.47947294623119,
+        19.158341444160193
+      ]
+    ]
+  },
+  {
+    "id": 25,
     "name": "Vlorë",
     "country": "Albania",
-    "lat": 40.4668,
-    "lon": 19.489,
-    "type": "marina",
-    "arrival": "2026-08-20",
-    "departure": "2026-08-22",
-    "duration": "2 days",
-    "distanceToNext": 52,
+    "lat": 40.47,
+    "lon": 19.48,
+    "type": "anchorage",
+    "arrival": "2026-09-10",
+    "departure": "2026-09-13",
+    "duration": "3 days",
+    "distanceToNext": 15,
     "phase": "Albania",
-    "schengen": false,
-    "marinaName": "Marina Vlorë",
-    "marinaUrl": "https://www.navily.com/port/marina-vlore/602d7f3a328ce6001f520f91",
+    "marinaName": "Vlorë Bay Anchorage",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Vlore",
     "cultureHighlight": "Independence Monument",
     "cultureUrl": "https://en.wikipedia.org/wiki/Vlor%C3%AB",
-    "notes": "Major harbor",
+    "notes": "Anchorage in Vlore Bay; protected from NW, dinghy to promenade & Independence Monument",
     "wikiUrl": "https://en.wikipedia.org/wiki/Vlor%C3%AB",
-    "foodUrl": "https://albania.al/destinations/vlora/",
-    "adventureUrl": "https://albania.al/destinations/vlora/",
-    "provisionsUrl": "https://www.navily.com/port/marina-vlore/602d7f3a328ce6001f520f91",
-    "season": "summer"
+    "foodUrl": "https://en.wikivoyage.org/wiki/Vlor%C3%AB",
+    "adventureUrl": "https://adventurealbania.com/vlora-things-to-do/",
+    "provisionsUrl": "https://www.cruiserswiki.org/wiki/Vlore",
+    "season": "summer",
+    "routeWaypoints": [
+      [
+        40.34116080710595,
+        19.445531137282522
+      ],
+      [
+        40.45357772439262,
+        19.394695573890473
+      ],
+      [
+        40.403769600048946,
+        19.46586921366929
+      ],
+      [
+        40.37633863102545,
+        19.40801618324796
+      ]
+    ]
   },
   {
-    "id": 19,
+    "id": 26,
+    "name": "Orikum",
+    "country": "Albania",
+    "lat": 40.3363,
+    "lon": 19.4717,
+    "type": "anchorage",
+    "arrival": "2026-09-13",
+    "departure": "2026-09-15",
+    "duration": "2 days",
+    "distanceToNext": 23,
+    "phase": "Albania",
+    "season": "summer",
+    "marinaName": "Orikum Marina",
+    "marinaUrl": "https://marinaorikum.com/",
+    "cultureHighlight": "Albanian Riviera gateway & ancient Orikum ruins",
+    "notes": "First dedicated Albanian yacht marina, sheltered bay in Vlorë Bay",
+    "routeWaypoints": [
+      [
+        40.56138459390013,
+        19.27117232957908
+      ],
+      [
+        40.54397486534809,
+        19.2472699789129
+      ],
+      [
+        40.526565136796044,
+        19.22336762824672
+      ],
+      [
+        40.266661085791824,
+        19.37609059733527
+      ],
+      [
+        40.210231312062334,
+        19.480044514466076
+      ]
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Drymades Beach",
+    "country": "Albania",
+    "lat": 40.148,
+    "lon": 19.59,
+    "type": "anchorage",
+    "arrival": "2026-09-15",
+    "departure": "2026-09-17",
+    "duration": "2 days",
+    "distanceToNext": 14,
+    "phase": "Albania",
+    "season": "summer",
+    "marinaName": "Drymades Bay Anchorage",
+    "marinaUrl": "https://en.wikipedia.org/wiki/Dhermi",
+    "cultureHighlight": "White-pebble Albanian Riviera beach",
+    "notes": "Dramatic cliff backdrop, crystal-clear water, excellent swimming"
+  },
+  {
+    "id": 28,
+    "name": "Himara",
+    "country": "Albania",
+    "lat": 40.101,
+    "lon": 19.745,
+    "type": "anchorage",
+    "arrival": "2026-09-17",
+    "departure": "2026-09-19",
+    "duration": "2 days",
+    "distanceToNext": 6,
+    "phase": "Albania",
+    "season": "summer",
+    "marinaName": "Himara Bay",
+    "marinaUrl": "https://en.wikipedia.org/wiki/Himara",
+    "cultureHighlight": "Riviera town with castle ruins",
+    "notes": "Greek minority heritage, Livadhi beach, growing tourism hub",
+    "routeWaypoints": [
+      [
+        40.042145591226934,
+        19.739972966284878
+      ]
+    ]
+  },
+  {
+    "id": 29,
     "name": "Porto Palermo",
     "country": "Albania",
     "lat": 40.0631,
     "lon": 19.7952,
     "type": "anchorage",
-    "arrival": "2026-08-22",
-    "departure": "2026-08-24",
+    "arrival": "2026-09-19",
+    "departure": "2026-09-21",
     "duration": "2 days",
     "distanceToNext": 28,
     "phase": "Albania",
-    "schengen": false,
-    "marinaUrl": "https://www.navily.com/region/palermo/371",
+    "marinaUrl": "https://sailingclick.com/marina/porto-palermo-marina/",
     "cultureHighlight": "Ali Pasha Castle",
     "cultureUrl": "https://en.wikipedia.org/wiki/Porto_Palermo_Castle",
     "notes": "Stunning natural harbor",
@@ -446,23 +849,29 @@
     "foodUrl": "https://albaniaturism.com/st_location/albania/vlore-county/",
     "adventureUrl": "https://albaniaturism.com/st_location/albania/vlore-county/",
     "provisionsUrl": "https://www.navily.com/region/palermo/371",
-    "season": "summer"
+    "season": "summer",
+    "routeWaypoints": [
+      [
+        39.857223524631614,
+        19.80063777435081
+      ]
+    ],
+    "marinaName": "Porto Palermo Bay"
   },
   {
-    "id": 20,
+    "id": 30,
     "name": "Sarandë",
     "country": "Albania",
     "lat": 39.8752,
     "lon": 20.0058,
     "type": "marina",
-    "arrival": "2026-08-24",
-    "departure": "2026-08-26",
-    "duration": "2 days",
-    "distanceToNext": 12,
+    "arrival": "2026-09-21",
+    "departure": "2026-09-24",
+    "duration": "3 days",
+    "distanceToNext": 11,
     "phase": "Albania",
-    "schengen": false,
     "marinaName": "Port of Sarandë",
-    "marinaUrl": "https://www.navily.com/carte/port/1249",
+    "marinaUrl": "https://sailingclick.com/marina/saranda-marina/",
     "cultureHighlight": "Butrint National Park (UNESCO)",
     "cultureUrl": "https://whc.unesco.org/en/list/570/",
     "notes": "Last Albania stop",
@@ -470,589 +879,754 @@
     "foodUrl": "https://findingalexx.com/albanian-riviera-travel-guide/",
     "adventureUrl": "https://findingalexx.com/albanian-riviera-travel-guide/",
     "provisionsUrl": "https://www.navily.com/carte/port/1249",
-    "season": "summer"
+    "season": "summer",
+    "routeWaypoints": [
+      [
+        39.828975648902755,
+        19.963161966911706
+      ]
+    ]
   },
   {
-    "id": 21,
+    "id": 31,
+    "name": "Ksamil",
+    "country": "Albania",
+    "lat": 39.7783,
+    "lon": 20.0004,
+    "type": "anchorage",
+    "arrival": "2026-09-24",
+    "departure": "2026-09-25",
+    "duration": "1 day",
+    "distanceToNext": 7,
+    "phase": "Albania",
+    "season": "summer",
+    "marinaName": "Ksamil Islands Anchorage",
+    "marinaUrl": "https://en.wikipedia.org/wiki/Ksamil",
+    "cultureHighlight": "Crystal islands adjacent to Butrint",
+    "notes": "Final Albanian anchorage, stunning islets before crossing to Corfu",
+    "routeWaypoints": [
+      [
+        39.861957796088056,
+        19.9675619404701
+      ]
+    ]
+  },
+  {
+    "id": 32,
     "name": "Kassiopi",
     "country": "Greece",
     "lat": 39.7864,
     "lon": 19.9189,
     "type": "anchorage",
-    "arrival": "2026-08-26",
-    "departure": "2026-08-28",
+    "arrival": "2026-09-25",
+    "departure": "2026-09-27",
     "duration": "2 days",
-    "distanceToNext": 16,
+    "distanceToNext": 17,
     "phase": "Greece",
-    "schengen": true,
-    "marinaName": "",
-    "marinaUrl": "https://www.navily.com/mouillage/kassiopi/14421",
+    "marinaName": "Kassiopi Harbour",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Kassiopi",
     "cultureHighlight": "Byzantine fortress & fishing village",
     "cultureUrl": "https://en.wikipedia.org/wiki/Kassiopi",
     "notes": "Entry to Greece - Corfu",
     "wikiUrl": "https://en.wikipedia.org/wiki/Kassiopi",
-    "foodUrl": "https://www.visitgreece.gr/islands/ionian/corfu/",
+    "foodUrl": "https://www.greeka.com/ionian/corfu/eat-drink/",
     "adventureUrl": "https://thecorfutrail.com/",
     "provisionsUrl": "https://www.d-marin.com/en/marinas/greece/gouvia",
-    "season": "summer"
+    "season": "summer",
+    "routeWaypoints": [
+      [
+        39.82943843654566,
+        20.01159388261513
+      ],
+      [
+        39.7352518512376,
+        19.9571786167877
+      ],
+      [
+        39.709467526800765,
+        19.89872731878384
+      ],
+      [
+        39.68167392043211,
+        19.894681700997324
+      ]
+    ]
   },
   {
-    "id": 22,
-    "name": "Gouvia Marina",
+    "id": 33,
+    "name": "Kontokali Bay (Corfu)",
     "country": "Greece",
-    "lat": 39.6513,
-    "lon": 19.8526,
-    "type": "marina",
-    "arrival": "2026-08-28",
-    "departure": "2026-08-30",
+    "lat": 39.64,
+    "lon": 19.86,
+    "type": "anchorage",
+    "arrival": "2026-09-27",
+    "departure": "2026-09-29",
     "duration": "2 days",
-    "distanceToNext": 62,
+    "distanceToNext": 61,
     "phase": "Greece",
-    "schengen": true,
     "marinaName": "Gouvia Marina",
-    "marinaUrl": "https://www.d-marin.com/en/marinas/greece/gouvia",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Gouvia_Marina",
     "cultureHighlight": "Corfu Old Town (UNESCO)",
     "cultureUrl": "https://whc.unesco.org/en/list/978/",
-    "notes": "Large marina on Corfu",
+    "notes": "Protected anchorage at Kontokali Bay; dinghy or bus to Corfu UNESCO Old Town",
     "wikiUrl": "https://whc.unesco.org/en/list/978/",
-    "foodUrl": "https://www.visitgreece.gr/islands/ionian/corfu/",
+    "foodUrl": "https://www.greeka.com/ionian/corfu/eat-drink/",
     "adventureUrl": "https://thecorfutrail.com/",
-    "provisionsUrl": "https://www.d-marin.com/en/marinas/greece/gouvia",
-    "season": "summer"
+    "provisionsUrl": "https://www.greeka.com/ionian/corfu/",
+    "season": "summer",
+    "routeWaypoints": [
+      [
+        39.62367091120236,
+        20.039098049916905
+      ],
+      [
+        39.47109834936476,
+        20.13430500344086
+      ],
+      [
+        39.29656482716028,
+        20.20833743047049
+      ]
+    ]
   },
   {
-    "id": 23,
+    "id": 34,
     "name": "Parga",
     "country": "Greece",
     "lat": 39.2855,
     "lon": 20.3976,
     "type": "anchorage",
-    "arrival": "2026-08-30",
-    "departure": "2026-09-01",
+    "arrival": "2026-09-29",
+    "departure": "2026-10-01",
     "duration": "2 days",
-    "distanceToNext": 48,
+    "distanceToNext": 49,
     "phase": "Greece",
-    "schengen": true,
-    "marinaUrl": "https://www.navily.com/mouillage/ormos-valtou/17745",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Parga",
     "cultureHighlight": "Venetian Castle & colorful waterfront",
     "cultureUrl": "https://en.wikipedia.org/wiki/Parga",
     "notes": "Picturesque town",
     "wikiUrl": "https://en.wikipedia.org/wiki/Parga",
-    "foodUrl": "https://www.visitgreece.gr/mainland/epirus/parga/",
+    "foodUrl": "https://www.greeka.com/epirus/parga/eat-drink/",
     "adventureUrl": "https://www.greeka.com/epirus/parga/sightseeing/",
     "provisionsUrl": "https://www.greeka.com/epirus/parga/",
+    "season": "summer",
+    "routeWaypoints": [
+      [
+        39.029691989755314,
+        20.497278304533413
+      ]
+    ],
+    "marinaName": "Ormos Valtou (Parga)"
+  },
+  {
+    "id": 35,
+    "name": "Preveza",
+    "country": "Greece",
+    "lat": 38.95,
+    "lon": 20.76,
+    "type": "anchorage",
+    "arrival": "2026-10-01",
+    "departure": "2026-10-03",
+    "duration": "2 days",
+    "distanceToNext": 13,
+    "phase": "Greece",
+    "marinaName": "Preveza Marina",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Preveza_Marina",
+    "cultureHighlight": "Nicopolis ancient city nearby",
+    "cultureUrl": "https://en.wikipedia.org/wiki/Preveza",
+    "notes": "Anchorage at Agios Thomas bay; protected, dinghy to Preveza town, visit Nicopolis ruins",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Preveza",
+    "foodUrl": "https://en.wikipedia.org/wiki/Preveza",
+    "adventureUrl": "https://www.mygreektravellingspoon.com/travel/preveza-travel-guide/",
+    "provisionsUrl": "https://en.wikipedia.org/wiki/Preveza",
     "season": "summer"
   },
   {
-    "id": 24,
-    "name": "Preveza",
+    "id": 36,
+    "name": "Lefkada Town",
     "country": "Greece",
-    "lat": 38.9561,
-    "lon": 20.7502,
-    "type": "marina",
-    "arrival": "2026-09-01",
-    "departure": "2026-09-03",
-    "duration": "2 days",
-    "distanceToNext": 15,
-    "phase": "Greece",
-    "schengen": true,
-    "marinaName": "",
-    "marinaUrl": "https://www.navily.com/mouillage/agios-thomas/56759",
-    "cultureHighlight": "Nicopolis ancient city nearby",
-    "cultureUrl": "https://en.wikipedia.org/wiki/Preveza",
-    "notes": "Excellent provisioning",
-    "wikiUrl": "https://en.wikipedia.org/wiki/Preveza",
-    "foodUrl": "https://www.visitgreece.gr/mainland/epirus/preveza/",
-    "adventureUrl": "https://www.mygreektravellingspoon.com/travel/preveza-travel-guide/",
-    "provisionsUrl": "https://prevezamarina.com/",
-    "season": "fall"
-  },
-  {
-    "id": 25,
-    "name": "Lefkas Marina",
-    "country": "Greece",
-    "lat": 38.8296,
-    "lon": 20.7078,
-    "type": "marina",
-    "arrival": "2026-09-03",
-    "departure": "2026-09-05",
+    "lat": 38.835,
+    "lon": 20.71,
+    "type": "anchorage",
+    "arrival": "2026-10-03",
+    "departure": "2026-10-05",
     "duration": "2 days",
     "distanceToNext": 14,
     "phase": "Greece",
-    "schengen": true,
-    "marinaName": "Lefkas Marina",
-    "marinaUrl": "https://www.d-marin.com/en/marinas/greece/lefkas",
+    "marinaName": "D-Marin Lefkas Marina",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Lefkas_Marina",
     "cultureHighlight": "Lefkada town & beaches",
-    "cultureUrl": "https://www.visitgreece.gr/islands/ionian-islands/lefkas/",
-    "notes": "Major Ionian hub",
-    "foodUrl": "https://www.visitgreece.gr/islands/ionian/lefkada/",
-    "adventureUrl": "https://www.visitgreece.gr/islands/ionian/lefkada/",
-    "provisionsUrl": "https://lefkasmarina.com/",
+    "cultureUrl": "https://www.greeka.com/ionian/lefkada/sightseeing/",
+    "notes": "Anchorage near Lefkada town; good holding, dinghy to town center & beaches",
+    "foodUrl": "https://www.greeka.com/ionian/lefkada/eat-drink/",
+    "adventureUrl": "https://www.greeka.com/ionian/lefkada/things-to-do/",
+    "provisionsUrl": "https://www.greeka.com/ionian/lefkada/",
     "wikiUrl": "https://en.wikipedia.org/wiki/Lefkada",
-    "season": "fall"
+    "season": "fall",
+    "routeWaypoints": [
+      [
+        38.749659639742674,
+        20.762919341493916
+      ]
+    ]
   },
   {
-    "id": 26,
+    "id": 37,
     "name": "Nydri",
     "country": "Greece",
     "lat": 38.7051,
     "lon": 20.7144,
     "type": "anchorage",
-    "arrival": "2026-09-05",
-    "departure": "2026-09-07",
+    "arrival": "2026-10-05",
+    "departure": "2026-10-07",
     "duration": "2 days",
     "distanceToNext": 30,
     "phase": "Greece",
-    "schengen": true,
-    "marinaName": "",
-    "marinaUrl": "https://www.navily.com/port/nidri/4757",
+    "marinaName": "Nidri Harbour (Vlikho Bay)",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Nidri",
     "cultureHighlight": "Waterfall hike & Skorpios Island views",
     "cultureUrl": "https://en.wikipedia.org/wiki/Nidri",
     "notes": "Lively town",
     "wikiUrl": "https://en.wikipedia.org/wiki/Nidri",
-    "foodUrl": "https://www.visitgreece.gr/islands/ionian/lefkada/",
+    "foodUrl": "https://www.greeka.com/ionian/lefkada/eat-drink/",
     "adventureUrl": "https://www.thesun.co.uk/travel/37092946/greece-caribbean-easier-access-new-marina/",
     "provisionsUrl": "https://lefkasmarina.com/",
-    "season": "fall"
+    "season": "fall",
+    "routeWaypoints": [
+      [
+        38.67295718370678,
+        20.805844434040516
+      ],
+      [
+        38.5770993008925,
+        20.820214940594372
+      ],
+      [
+        38.575898049130714,
+        20.654144059283997
+      ]
+    ]
   },
   {
-    "id": 27,
+    "id": 38,
     "name": "Fiskardo",
     "country": "Greece",
     "lat": 38.4564,
     "lon": 20.5764,
     "type": "anchorage",
-    "arrival": "2026-09-07",
-    "departure": "2026-09-09",
+    "arrival": "2026-10-07",
+    "departure": "2026-10-09",
     "duration": "2 days",
-    "distanceToNext": 75,
+    "distanceToNext": 74,
     "phase": "Greece",
-    "schengen": true,
-    "marinaUrl": "https://www.navily.com/carte/mouillage/14497",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Fiskardo",
     "cultureHighlight": "Venetian architecture & yacht harbor",
     "cultureUrl": "https://en.wikipedia.org/wiki/Fiskardo",
     "notes": "Last Ionian stop - head to Corinth",
     "wikiUrl": "https://en.wikipedia.org/wiki/Fiskardo",
-    "foodUrl": "https://www.visitgreece.gr/islands/ionian/kefalonia/",
+    "foodUrl": "https://www.greeka.com/ionian/kefalonia/eat-drink/",
     "adventureUrl": "https://www.kefalonia-island.com/",
-    "provisionsUrl": "https://www.navily.com/mouillage/fiskardo/1231",
-    "season": "fall"
+    "provisionsUrl": "https://www.navily.com/mouillage/fiskardo/14497",
+    "season": "fall",
+    "routeWaypoints": [
+      [
+        38.1776925416067,
+        20.827859295759662
+      ]
+    ],
+    "marinaName": "Fiskardo Harbour"
   },
   {
-    "id": 28,
+    "id": 39,
     "name": "Messolonghi",
     "country": "Greece",
-    "lat": 38.3697,
-    "lon": 21.4264,
-    "type": "marina",
-    "arrival": "2026-09-09",
-    "departure": "2026-09-11",
+    "lat": 38.365,
+    "lon": 21.42,
+    "type": "anchorage",
+    "arrival": "2026-10-09",
+    "departure": "2026-10-11",
     "duration": "2 days",
     "distanceToNext": 30,
     "phase": "Greece",
-    "schengen": true,
     "marinaName": "Messolonghi Marina",
-    "marinaUrl": "https://www.messolonghimarina.com/",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Messolonghi_Marina",
     "cultureHighlight": "Garden of Heroes & natural lagoon",
     "cultureUrl": "https://en.wikipedia.org/wiki/Missolonghi",
-    "notes": "Historic town, Lord Byron connection",
+    "notes": "Anchorage in lagoon entrance; shallow draft area, dinghy to town - Lord Byron heritage",
     "wikiUrl": "https://en.wikipedia.org/wiki/Messolonghi",
-    "foodUrl": "https://www.visitgreece.gr/mainland/western-greece/messolonghi/",
-    "adventureUrl": "https://www.visitgreece.gr/mainland/western-greece/messolonghi/",
-    "provisionsUrl": "https://www.navily.com/mouillage/mesolongi/14560",
-    "season": "fall"
+    "foodUrl": "https://www.greeka.com/sterea/mesolongi/eat-drink/restaurants/",
+    "adventureUrl": "https://www.greeka.com/sterea/mesolongi/things-to-do/",
+    "provisionsUrl": "https://www.greeka.com/sterea/mesolongi/",
+    "season": "fall",
+    "routeWaypoints": [
+      [
+        38.223880476605515,
+        21.45675654012436
+      ]
+    ]
   },
   {
-    "id": 29,
+    "id": 40,
     "name": "Patras",
     "country": "Greece",
     "lat": 38.2515,
     "lon": 21.7314,
     "type": "marina",
-    "arrival": "2026-09-11",
-    "departure": "2026-09-13",
+    "arrival": "2026-10-11",
+    "departure": "2026-10-13",
     "duration": "2 days",
     "distanceToNext": 58,
     "phase": "Greece",
-    "schengen": true,
     "marinaName": "Patras Marina",
     "marinaUrl": "https://www.allovergreece.com/Marina/Descr/32/en",
     "cultureHighlight": "Patras Carnival & Roman Odeon",
     "cultureUrl": "https://en.wikipedia.org/wiki/Patras",
     "notes": "Gateway to Gulf of Corinth",
     "wikiUrl": "https://en.wikipedia.org/wiki/Patras",
-    "foodUrl": "https://www.visitgreece.gr/mainland/peloponnese/patras/",
+    "foodUrl": "https://www.greeka.com/peloponnese/patra/eat-drink/",
     "adventureUrl": "https://www.greeka.com/peloponnese/patra/sightseeing/",
     "provisionsUrl": "https://www.greeka.com/peloponnese/patra/",
-    "season": "fall"
+    "season": "fall",
+    "routeWaypoints": [
+      [
+        38.36725322015824,
+        21.789888879748617
+      ],
+      [
+        38.32436598046656,
+        22.05359041169881
+      ],
+      [
+        38.301636537917396,
+        22.22465297500944
+      ],
+      [
+        38.17902913009253,
+        22.428903132577997
+      ]
+    ]
   },
   {
-    "id": 30,
+    "id": 41,
     "name": "Galaxidi",
     "country": "Greece",
     "lat": 38.3776,
     "lon": 22.3796,
     "type": "anchorage",
-    "arrival": "2026-09-13",
-    "departure": "2026-09-15",
+    "arrival": "2026-10-13",
+    "departure": "2026-10-15",
     "duration": "2 days",
     "distanceToNext": 73,
     "phase": "Greece",
-    "schengen": true,
-    "marinaUrl": "https://www.navily.com/mouillage/galaxidi/14562",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Galaxidhi",
     "cultureHighlight": "Historic maritime town",
     "cultureUrl": "https://en.wikipedia.org/wiki/Galaxidi",
     "notes": "Charming port town",
     "wikiUrl": "https://en.wikipedia.org/wiki/Galaxidi",
-    "foodUrl": "https://www.discovergreece.com/greek-mainland/destinations/galaxidi",
+    "foodUrl": "https://en.wikipedia.org/wiki/Galaxidi",
     "adventureUrl": "https://www.visitdelphi.gr/en/",
-    "provisionsUrl": "https://www.navily.com/mouillage/galaxidi/783",
-    "season": "fall"
+    "provisionsUrl": "https://www.navily.com/port/galaxidhi/1469",
+    "season": "fall",
+    "marinaName": "Galaxidi Harbour"
   },
   {
-    "id": 31,
+    "id": 42,
     "name": "Corinth Canal",
     "country": "Greece",
     "lat": 37.9342,
     "lon": 22.9922,
     "type": "transit",
-    "arrival": "2026-09-15",
-    "departure": "2026-09-17",
+    "arrival": "2026-10-15",
+    "departure": "2026-10-17",
     "duration": "2 days",
-    "distanceToNext": 43,
+    "distanceToNext": 44,
     "phase": "Greece",
-    "schengen": true,
     "marinaUrl": "https://en.wikipedia.org/wiki/Corinth_Canal",
     "cultureHighlight": "Corinth Canal (6.3km engineering marvel)",
     "cultureUrl": "https://en.wikipedia.org/wiki/Corinth_Canal",
     "notes": "Transit through canal to Saronic Gulf",
     "wikiUrl": "https://en.wikipedia.org/wiki/Corinth_Canal",
-    "foodUrl": "https://www.visitgreece.gr/mainland/peloponnese/corinth/",
-    "adventureUrl": "https://www.visitgreece.gr/mainland/peloponnese/corinth/",
-    "provisionsUrl": "https://www.navily.com/mouillage/corinth-canal-east/12307",
-    "season": "fall"
+    "foodUrl": "https://en.wikipedia.org/wiki/Corinth_Canal",
+    "adventureUrl": "https://en.wikipedia.org/wiki/Corinth_Canal",
+    "provisionsUrl": "https://en.wikipedia.org/wiki/Corinth_Canal",
+    "season": "fall",
+    "marinaName": "Corinth Canal Transit"
   },
   {
-    "id": 32,
+    "id": 43,
     "name": "Aegina",
     "country": "Greece",
-    "lat": 37.7506,
-    "lon": 23.428,
-    "type": "marina",
-    "arrival": "2026-09-17",
-    "departure": "2026-09-19",
+    "lat": 37.748,
+    "lon": 23.435,
+    "type": "anchorage",
+    "arrival": "2026-10-17",
+    "departure": "2026-10-19",
     "duration": "2 days",
     "distanceToNext": 27,
     "phase": "Greece",
-    "schengen": true,
-    "marinaUrl": "https://www.navily.com/port/aegina/14630",
+    "marinaName": "Aegina Marina (Perdika anchorage nearby)",
+    "marinaUrl": "https://sailingissues.com/greekislands/aegina.html",
     "cultureHighlight": "Temple of Aphaea",
     "cultureUrl": "https://en.wikipedia.org/wiki/Temple_of_Aphaia",
-    "notes": "First Saronic island",
+    "notes": "Anchorage off Aegina town; protected, dinghy to fish market & Temple of Aphaea",
     "wikiUrl": "https://en.wikipedia.org/wiki/Temple_of_Aphaia",
-    "foodUrl": "https://www.visitgreece.gr/islands/saronic-islands/aegina/",
+    "foodUrl": "https://www.greeka.com/saronic/aegina/eat-drink/",
     "adventureUrl": "https://www.greeka.com/saronic/aegina/sightseeing/",
     "provisionsUrl": "https://www.greeka.com/saronic/aegina/",
     "season": "fall"
   },
   {
-    "id": 33,
+    "id": 44,
     "name": "Poros",
     "country": "Greece",
-    "lat": 37.5044,
-    "lon": 23.4549,
-    "type": "marina",
-    "arrival": "2026-09-19",
-    "departure": "2026-09-21",
+    "lat": 37.51,
+    "lon": 23.46,
+    "type": "anchorage",
+    "arrival": "2026-10-19",
+    "departure": "2026-10-21",
     "duration": "2 days",
-    "distanceToNext": 17,
+    "distanceToNext": 18,
     "phase": "Greece",
-    "schengen": true,
-    "marinaName": "",
-    "marinaUrl": "https://www.navily.com/port/poros/14633",
+    "marinaName": "Poros Town Harbour (Neorion Bay)",
+    "marinaUrl": "https://sailingissues.com/greekislands/poros.html",
     "cultureHighlight": "Temple of Poseidon ruins",
     "cultureUrl": "https://en.wikipedia.org/wiki/Poros",
-    "notes": "Picturesque harbor",
+    "notes": "Anchorage in Poros channel; scenic waterfront, dinghy to town & Temple of Poseidon",
     "wikiUrl": "https://en.wikipedia.org/wiki/Poros",
-    "foodUrl": "https://www.visitgreece.gr/islands/saronic-islands/poros/",
-    "adventureUrl": "https://www.visitgreece.gr/islands/saronic-islands/poros/",
+    "foodUrl": "https://www.greeka.com/saronic/poros/eat-drink/",
+    "adventureUrl": "https://www.greeka.com/saronic/poros/things-to-do/",
     "provisionsUrl": "https://www.greeka.com/saronic/poros/",
-    "season": "fall"
+    "season": "fall",
+    "routeWaypoints": [
+      [
+        37.45745797767816,
+        23.54071866941007
+      ]
+    ]
   },
   {
-    "id": 34,
+    "id": 45,
     "name": "Hydra",
     "country": "Greece",
     "lat": 37.3475,
     "lon": 23.4622,
     "type": "anchorage",
-    "arrival": "2026-09-21",
-    "departure": "2026-09-23",
+    "arrival": "2026-10-21",
+    "departure": "2026-10-23",
     "duration": "2 days",
     "distanceToNext": 29,
     "phase": "Greece",
-    "schengen": true,
-    "marinaUrl": "https://www.navily.com/port/hydra/14636",
+    "marinaUrl": "https://sailingissues.com/greekislands/hydra.html",
     "cultureHighlight": "Car-free island & naval heritage",
     "cultureUrl": "https://en.wikipedia.org/wiki/Hydra_(island)",
     "notes": "No vehicles - donkeys only",
     "wikiUrl": "https://en.wikipedia.org/wiki/Hydra_(island)",
-    "foodUrl": "https://www.visitgreece.gr/islands/saronic-islands/hydra/",
+    "foodUrl": "https://www.greeka.com/saronic/hydra/eat-drink/",
     "adventureUrl": "https://www.greeka.com/saronic/hydra/sightseeing/",
     "provisionsUrl": "https://www.navily.com/port/hydra/1114",
-    "season": "fall"
+    "season": "fall",
+    "marinaName": "Mandraki Bay"
   },
   {
-    "id": 35,
+    "id": 46,
     "name": "Spetses",
     "country": "Greece",
-    "lat": 37.2614,
-    "lon": 23.1558,
-    "type": "marina",
-    "arrival": "2026-09-23",
-    "departure": "2026-09-25",
+    "lat": 37.265,
+    "lon": 23.15,
+    "type": "anchorage",
+    "arrival": "2026-10-23",
+    "departure": "2026-10-25",
     "duration": "2 days",
-    "distanceToNext": 93,
+    "distanceToNext": 88,
     "phase": "Greece",
-    "schengen": true,
-    "marinaName": "Spetses Old Harbor",
-    "marinaUrl": "https://www.navily.com/port/spetses/14639",
+    "marinaName": "Baltiza (Old Harbour)",
+    "marinaUrl": "https://sailingissues.com/greekislands/spetses.html",
     "cultureHighlight": "Naval history & Bouboulina Museum",
     "cultureUrl": "https://en.wikipedia.org/wiki/Spetses",
-    "notes": "Historic naval island",
+    "notes": "Protected Baltiza inlet anchorage; dinghy to Spetses town, Bouboulina Museum, naval heritage",
     "wikiUrl": "https://en.wikipedia.org/wiki/Spetses",
-    "foodUrl": "https://www.visitgreece.gr/islands/saronic-islands/spetses/",
+    "foodUrl": "https://www.greeka.com/saronic/spetses/eat-drink/",
     "adventureUrl": "https://www.greeka.com/saronic/spetses/sightseeing/",
-    "provisionsUrl": "https://www.navily.com/port/spetses/1103",
+    "provisionsUrl": "https://www.greeka.com/saronic/spetses/",
     "season": "fall"
   },
   {
-    "id": 36,
-    "name": "Lavrio",
+    "id": 47,
+    "name": "Cape Sounion",
     "country": "Greece",
-    "lat": 37.697,
-    "lon": 24.0582,
-    "type": "marina",
-    "arrival": "2026-09-25",
-    "departure": "2026-09-27",
+    "lat": 37.65,
+    "lon": 24.025,
+    "type": "anchorage",
+    "arrival": "2026-10-25",
+    "departure": "2026-10-27",
     "duration": "2 days",
-    "distanceToNext": 24,
+    "distanceToNext": 26,
     "phase": "Greece",
-    "schengen": true,
-    "marinaName": "Olympic Marine Lavrio",
-    "marinaUrl": "https://www.olympicmarine.gr/",
-    "cultureHighlight": "Cape Sounion & Temple of Poseidon nearby",
+    "marinaName": "Sounion Bay",
+    "marinaUrl": "https://sailingissues.com/greekislands/argolic.html",
+    "cultureHighlight": "Cape Sounion & Temple of Poseidon",
     "cultureUrl": "https://en.wikipedia.org/wiki/Temple_of_Poseidon,_Sounion",
-    "notes": "Gateway to Cyclades",
+    "notes": "Stunning anchorage at Cape Sounion; Temple of Poseidon sunset, swim ashore or dinghy",
     "wikiUrl": "https://en.wikipedia.org/wiki/Temple_of_Poseidon,_Sounion",
-    "foodUrl": "https://www.gtp.gr/LocPage.asp?id=6260",
-    "adventureUrl": "https://www.visitgreece.gr/mainland/attica/cape-sounio/",
-    "provisionsUrl": "https://www.olympicmarine.gr/",
-    "season": "fall"
+    "foodUrl": "https://www.greeka.com/attica/athens/beaches/cape-sounion/",
+    "adventureUrl": "https://www.greeka.com/attica/athens/sightseeing/sounio-poseidon-temple/",
+    "provisionsUrl": "https://www.greeka.com/attica/",
+    "season": "fall",
+    "routeWaypoints": [
+      [
+        37.643373186958804,
+        24.17583370925929
+      ]
+    ]
   },
   {
-    "id": 37,
+    "id": 48,
     "name": "Kea",
     "country": "Greece",
     "lat": 37.6667,
     "lon": 24.325,
     "type": "anchorage",
-    "arrival": "2026-09-27",
-    "departure": "2026-09-29",
+    "arrival": "2026-10-27",
+    "departure": "2026-10-29",
     "duration": "2 days",
-    "distanceToNext": 60,
+    "distanceToNext": 59,
     "phase": "Greece",
-    "schengen": true,
-    "marinaName": "",
-    "marinaUrl": "https://www.navily.com/mouillage/vourkari/14701",
+    "marinaName": "Vourkari (Ayios Nikolaos Bay)",
+    "marinaUrl": "https://sailingissues.com/greekislands/kea.html",
     "cultureHighlight": "Lion of Kea ancient sculpture",
     "cultureUrl": "https://en.wikipedia.org/wiki/Kea_(island)",
     "notes": "First Cycladic island",
     "wikiUrl": "https://en.wikipedia.org/wiki/Kea_(island)",
     "foodUrl": "https://www.greeka.com/cyclades/kea/",
     "adventureUrl": "https://www.greeka.com/cyclades/kea/sightseeing/",
-    "provisionsUrl": "https://www.navily.com/port/korissia/3241",
-    "season": "fall"
+    "provisionsUrl": "https://www.navily.com/mouillage/korissia/15311",
+    "season": "fall",
+    "routeWaypoints": [
+      [
+        37.82850197260025,
+        24.611695559058155
+      ]
+    ]
   },
   {
-    "id": 38,
-    "name": "Syros",
+    "id": 49,
+    "name": "Ermoupoli (Syros)",
     "country": "Greece",
-    "lat": 37.4406,
-    "lon": 24.9414,
-    "type": "marina",
-    "arrival": "2026-09-29",
-    "departure": "2026-10-01",
+    "lat": 37.445,
+    "lon": 24.935,
+    "type": "anchorage",
+    "arrival": "2026-10-29",
+    "departure": "2026-10-31",
     "duration": "2 days",
-    "distanceToNext": 34,
+    "distanceToNext": 35,
     "phase": "Greece",
-    "schengen": true,
-    "marinaName": "Ermoupoli Harbor",
-    "marinaUrl": "https://www.navily.com/port/ermoupoli/14704",
+    "marinaName": "Ermoupoli Harbour",
+    "marinaUrl": "https://sailingissues.com/greekislands/syros.html",
     "cultureHighlight": "Ermoupoli - Capital of Cyclades",
     "cultureUrl": "https://en.wikipedia.org/wiki/Ermoupoli",
-    "notes": "Neoclassical architecture",
+    "notes": "Anchorage off Ermoupoli; good holding, dinghy to neoclassical Cyclades capital",
     "wikiUrl": "https://en.wikipedia.org/wiki/Ermoupoli",
     "foodUrl": "https://www.syrosisland.gr/en/",
-    "adventureUrl": "https://www.visitgreece.gr/islands/cyclades/syros/",
-    "provisionsUrl": "https://www.navily.com/port/syros-marina-ermoupoli/966",
+    "adventureUrl": "https://www.greeka.com/cyclades/syros/things-to-do/",
+    "provisionsUrl": "https://www.syrosisland.gr/en/",
     "season": "fall"
   },
   {
-    "id": 39,
-    "name": "Mykonos",
+    "id": 50,
+    "name": "Ornos Bay (Mykonos)",
     "country": "Greece",
-    "lat": 37.4467,
-    "lon": 25.3289,
-    "type": "marina",
-    "arrival": "2026-10-01",
-    "departure": "2026-10-03",
+    "lat": 37.425,
+    "lon": 25.335,
+    "type": "anchorage",
+    "arrival": "2026-10-31",
+    "departure": "2026-11-02",
     "duration": "2 days",
-    "distanceToNext": 38,
+    "distanceToNext": 35,
     "phase": "Greece",
-    "schengen": true,
-    "marinaUrl": "https://www.navily.com/port/mykonos-new-port/14710",
+    "marinaName": "Ormos Ornos",
+    "marinaUrl": "https://sailingissues.com/greekislands/mykonos.html",
     "cultureHighlight": "Windmills & Little Venice",
     "cultureUrl": "https://en.wikipedia.org/wiki/Mykonos",
-    "notes": "Famous island",
+    "notes": "Protected anchorage at Ornos Bay; sheltered from meltemi, bus to Mykonos town & windmills",
     "wikiUrl": "https://en.wikipedia.org/wiki/Mykonos",
-    "foodUrl": "https://www.visitgreece.gr/islands/cyclades/mykonos/",
+    "foodUrl": "https://www.greeka.com/cyclades/mykonos/eat-drink/",
     "adventureUrl": "https://www.mykonosgreece.com/trip-to-delos/",
-    "provisionsUrl": "https://www.navily.com/port/mykonos-new-port/1160",
+    "provisionsUrl": "https://www.greeka.com/cyclades/mykonos/",
     "season": "fall"
   },
   {
-    "id": 40,
+    "id": 51,
     "name": "Naxos",
     "country": "Greece",
-    "lat": 37.1036,
-    "lon": 25.3756,
-    "type": "marina",
-    "arrival": "2026-10-03",
-    "departure": "2026-10-05",
+    "lat": 37.11,
+    "lon": 25.37,
+    "type": "anchorage",
+    "arrival": "2026-11-02",
+    "departure": "2026-11-04",
     "duration": "2 days",
     "distanceToNext": 20,
     "phase": "Greece",
-    "schengen": true,
-    "marinaName": "",
-    "marinaUrl": "https://www.navily.com/port/naxos/14716",
+    "marinaName": "Naxos Marina (Naxos Town Harbour)",
+    "marinaUrl": "https://sailingissues.com/greekislands/naxos.html",
     "cultureHighlight": "Portara (Temple of Apollo)",
     "cultureUrl": "https://en.wikipedia.org/wiki/Naxos",
-    "notes": "Largest Cycladic island",
+    "notes": "Anchorage off Naxos town; protected N side, dinghy to iconic Portara & old town",
     "wikiUrl": "https://en.wikipedia.org/wiki/Naxos",
-    "foodUrl": "https://www.visitgreece.gr/islands/cyclades/naxos/",
+    "foodUrl": "https://www.greeka.com/cyclades/naxos/eat-drink/",
     "adventureUrl": "https://www.greeka.com/cyclades/naxos/sightseeing/",
     "provisionsUrl": "https://www.greeka.com/cyclades/naxos/",
-    "season": "fall"
+    "season": "fall",
+    "routeWaypoints": [
+      [
+        37.29921452813854,
+        25.239792041943247
+      ]
+    ]
   },
   {
-    "id": 41,
-    "name": "Paros",
+    "id": 52,
+    "name": "Parikia (Paros)",
     "country": "Greece",
-    "lat": 37.0846,
-    "lon": 25.151,
-    "type": "marina",
-    "arrival": "2026-10-05",
-    "departure": "2026-10-07",
+    "lat": 37.09,
+    "lon": 25.145,
+    "type": "anchorage",
+    "arrival": "2026-11-04",
+    "departure": "2026-11-06",
     "duration": "2 days",
-    "distanceToNext": 71,
+    "distanceToNext": 72,
     "phase": "Greece",
-    "schengen": true,
-    "marinaUrl": "https://www.navily.com/port/parikia/14719",
+    "marinaName": "Parikia Harbour",
+    "marinaUrl": "https://sailingissues.com/greekislands/paros.html",
     "cultureHighlight": "Panagia Ekatontapiliani church",
     "cultureUrl": "https://en.wikipedia.org/wiki/Paros",
-    "notes": "Beautiful beaches",
+    "notes": "Anchorage in Parikia Bay; good holding, dinghy to Byzantine church & old town",
     "wikiUrl": "https://en.wikipedia.org/wiki/Paros",
-    "foodUrl": "https://www.visitgreece.gr/islands/cyclades/paros/",
+    "foodUrl": "https://www.greeka.com/cyclades/paros/eat-drink/",
     "adventureUrl": "https://capturencrave.com/paros-island-a-city-guide/",
     "provisionsUrl": "https://www.greeka.com/cyclades/paros/",
-    "season": "fall"
+    "season": "fall",
+    "routeWaypoints": [
+      [
+        37.35211716410333,
+        25.30460848042179
+      ],
+      [
+        37.02564481901191,
+        25.33005342993306
+      ],
+      [
+        36.848286001335424,
+        25.355360348056372
+      ],
+      [
+        36.942759270279666,
+        25.507581870080983
+      ],
+      [
+        36.8112227598927,
+        25.673064520788603
+      ]
+    ]
   },
   {
-    "id": 42,
+    "id": 53,
     "name": "Amorgos",
     "country": "Greece",
     "lat": 36.8333,
     "lon": 25.8833,
     "type": "anchorage",
-    "arrival": "2026-10-07",
-    "departure": "2026-10-10",
+    "arrival": "2026-11-06",
+    "departure": "2026-11-09",
     "duration": "3 days",
     "distanceToNext": 53,
     "phase": "Greece",
-    "schengen": true,
-    "marinaName": "",
-    "marinaUrl": "https://www.cruiserswiki.org/wiki/Amorgos",
+    "marinaName": "Katapola Bay",
+    "marinaUrl": "https://sailingissues.com/greekislands/amorgos.html",
     "cultureHighlight": "Chozoviotissa Monastery",
-    "cultureUrl": "https://en.wikipedia.org/wiki/Panagia_Hozoviotissa",
+    "cultureUrl": "https://en.wikipedia.org/wiki/Panagia_Hozoviotissa_Monastery",
     "notes": "Unspoiled Cycladic gem, Big Blue filming location",
     "wikiUrl": "https://en.wikipedia.org/wiki/Amorgos",
-    "foodUrl": "https://www.visitgreece.gr/islands/cyclades/amorgos/",
-    "adventureUrl": "https://www.visitgreece.gr/islands/cyclades/amorgos/",
+    "foodUrl": "https://www.greeka.com/cyclades/amorgos/eat-drink/",
+    "adventureUrl": "https://www.greeka.com/cyclades/amorgos/things-to-do/",
     "provisionsUrl": "https://www.navily.com/port/katapola/1200",
-    "season": "fall"
+    "season": "fall",
+    "routeWaypoints": [
+      [
+        36.77630805027483,
+        26.1706669782117
+      ]
+    ]
   },
   {
-    "id": 43,
+    "id": 54,
     "name": "Astypalaia",
     "country": "Greece",
     "lat": 36.5482,
     "lon": 26.3545,
     "type": "anchorage",
-    "arrival": "2026-10-10",
-    "departure": "2026-10-12",
+    "arrival": "2026-11-09",
+    "departure": "2026-11-11",
     "duration": "2 days",
     "distanceToNext": 63,
     "phase": "Greece",
-    "schengen": true,
-    "marinaName": "",
+    "marinaName": "Skala Harbour",
     "marinaUrl": "https://www.cruiserswiki.org/wiki/Astypalea",
     "cultureHighlight": "Querini Venetian Castle",
     "cultureUrl": "https://en.wikipedia.org/wiki/Astypalaia",
     "notes": "Butterfly-shaped island",
     "wikiUrl": "https://en.wikipedia.org/wiki/Astypalaia",
-    "foodUrl": "https://www.visitgreece.gr/islands/dodecanese/astypalaia/",
+    "foodUrl": "https://www.greeka.com/dodecanese/astypalaia/",
     "adventureUrl": "https://johnnyafrica.com/astypalaia-guide/",
     "provisionsUrl": "https://www.navily.com/port/astypalea/936",
-    "season": "fall"
+    "season": "fall",
+    "routeWaypoints": [
+      [
+        36.63847951434978,
+        26.68553577116192
+      ]
+    ]
   },
   {
-    "id": 44,
+    "id": 55,
     "name": "Kos",
     "country": "Greece",
-    "lat": 36.895,
-    "lon": 26.9167,
-    "type": "marina",
-    "arrival": "2026-10-12",
-    "departure": "2026-10-14",
+    "lat": 36.898,
+    "lon": 26.91,
+    "type": "anchorage",
+    "arrival": "2026-11-11",
+    "departure": "2026-11-13",
     "duration": "2 days",
-    "distanceToNext": 48,
+    "distanceToNext": 49,
     "phase": "Greece",
-    "schengen": true,
     "marinaName": "Kos Marina",
-    "marinaUrl": "https://www.navily.com/port/kos-marina/14722",
+    "marinaUrl": "https://sailingissues.com/greekislands/kos.html",
     "cultureHighlight": "Asclepieion healing temple & Hippocrates",
     "cultureUrl": "https://en.wikipedia.org/wiki/Kos",
-    "notes": "Gateway to Turkey - 4km to Bodrum",
+    "notes": "Anchorage off Kos town; protected, dinghy to Hippocrates Tree & Asclepieion temple",
     "wikiUrl": "https://en.wikipedia.org/wiki/Kos",
     "foodUrl": "https://kos.gr/",
-    "adventureUrl": "https://www.visitgreece.gr/islands/dodecanese/kos/",
-    "provisionsUrl": "https://www.kosmarina.gr/",
-    "season": "fall"
+    "adventureUrl": "https://www.greeka.com/dodecanese/kos/things-to-do/",
+    "provisionsUrl": "https://kos.gr/",
+    "season": "fall",
+    "routeWaypoints": [
+      [
+        36.92291308603827,
+        27.320654683120804
+      ]
+    ]
   },
   {
-    "id": 45,
+    "id": 56,
     "name": "Bodrum",
     "country": "Turkey",
     "lat": 37.0344,
     "lon": 27.4305,
     "type": "marina",
-    "arrival": "2026-10-14",
-    "departure": "2026-10-16",
+    "arrival": "2026-11-13",
+    "departure": "2026-11-15",
     "duration": "2 days",
-    "distanceToNext": 78,
+    "distanceToNext": 77,
     "phase": "Turkey",
-    "schengen": false,
     "marinaName": "Milta Bodrum Marina",
     "marinaUrl": "https://www.miltabodrummarina.com/",
     "cultureHighlight": "Bodrum Castle & Mausoleum site",
@@ -1062,69 +1636,96 @@
     "foodUrl": "https://gobodrumturkiye.com/",
     "adventureUrl": "https://gobodrum.com.tr/en",
     "provisionsUrl": "https://www.miltabodrummarina.com/",
-    "season": "fall"
+    "season": "fall",
+    "routeWaypoints": [
+      [
+        36.9,
+        27.5
+      ],
+      [
+        36.65,
+        27.8
+      ],
+      [
+        36.6,
+        27.95
+      ],
+      [
+        36.62,
+        28.1
+      ]
+    ]
   },
   {
-    "id": 46,
+    "id": 57,
     "name": "Marmaris",
     "country": "Turkey",
-    "lat": 36.8529,
-    "lon": 28.2742,
-    "type": "marina",
-    "arrival": "2026-10-16",
-    "departure": "2026-10-18",
+    "lat": 36.85,
+    "lon": 28.27,
+    "type": "anchorage",
+    "arrival": "2026-11-15",
+    "departure": "2026-11-17",
     "duration": "2 days",
     "distanceToNext": 79,
     "phase": "Turkey",
-    "schengen": false,
-    "marinaName": "Marmaris Yacht Marina",
-    "marinaUrl": "https://www.yachtmarin.com/",
+    "marinaName": "Netsel Marmaris Marina",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Netsel_Marina",
     "cultureHighlight": "Marmaris Castle & waterfront",
     "cultureUrl": "https://en.wikipedia.org/wiki/Marmaris",
-    "notes": "Major sailing hub",
+    "notes": "Anchorage in Marmaris Bay; very protected, dinghy to castle & waterfront bazaar",
     "wikiUrl": "https://en.wikipedia.org/wiki/Marmaris",
     "foodUrl": "https://www.allaboutturkey.com/marmaris.html",
     "adventureUrl": "https://www.visitmarmaris.com/",
-    "provisionsUrl": "https://www.yachtmarin.com/",
-    "season": "fall"
+    "provisionsUrl": "https://www.visitmarmaris.com/",
+    "season": "fall",
+    "routeWaypoints": [
+      [
+        36.55955062336464,
+        28.617331483761742
+      ]
+    ]
   },
   {
-    "id": 47,
-    "name": "Fethiye",
+    "id": 58,
+    "name": "Gemiler Island (Fethiye)",
     "country": "Turkey",
-    "lat": 36.621,
-    "lon": 29.1084,
-    "type": "marina",
-    "arrival": "2026-10-18",
-    "departure": "2026-10-20",
+    "lat": 36.55,
+    "lon": 29.07,
+    "type": "anchorage",
+    "arrival": "2026-11-17",
+    "departure": "2026-11-19",
     "duration": "2 days",
-    "distanceToNext": 67,
+    "distanceToNext": 64,
     "phase": "Turkey",
-    "schengen": false,
-    "marinaName": "Ece Marina Fethiye",
-    "marinaUrl": "https://www.ecesaray.com.tr/",
-    "cultureHighlight": "Lycian rock tombs",
+    "marinaName": "Gemiler Island Anchorage (Gemiler Adasi)",
+    "marinaUrl": "https://www.coastguidetr.com/en/bay/101311/gemiler-island",
+    "cultureHighlight": "Lycian rock tombs & Byzantine ruins",
     "cultureUrl": "https://en.wikipedia.org/wiki/Fethiye",
-    "notes": "Gateway to 12 Islands",
+    "notes": "Stunning Gemiler Island anchorage; Byzantine church ruins on island, dinghy to Oludeniz beach",
     "wikiUrl": "https://en.wikipedia.org/wiki/Fethiye",
     "foodUrl": "https://www.allaboutturkey.com/fethiye.html",
     "adventureUrl": "https://gofethiyeturkiye.com/",
-    "provisionsUrl": "https://www.ecesaray.com.tr/",
-    "season": "fall"
+    "provisionsUrl": "https://gofethiyeturkiye.com/",
+    "season": "fall",
+    "routeWaypoints": [
+      [
+        36.17890942427675,
+        29.100770445274488
+      ]
+    ]
   },
   {
-    "id": 48,
+    "id": 59,
     "name": "Kaş",
     "country": "Turkey",
     "lat": 36.1999,
     "lon": 29.6394,
     "type": "marina",
-    "arrival": "2026-10-20",
-    "departure": "2026-10-23",
+    "arrival": "2026-11-19",
+    "departure": "2026-11-22",
     "duration": "3 days",
     "distanceToNext": 44,
     "phase": "Turkey",
-    "schengen": false,
     "marinaName": "Setur Kaş Marina",
     "marinaUrl": "https://www.kasmarina.com.tr/",
     "cultureHighlight": "Lycian tombs & underwater city",
@@ -1134,22 +1735,35 @@
     "foodUrl": "https://turkeytravelguide.com/destinations/kas/",
     "adventureUrl": "https://bucketlistbums.com/single-post/kasturkey/",
     "provisionsUrl": "https://kasmarina.com.tr/",
-    "season": "fall"
+    "season": "fall",
+    "routeWaypoints": [
+      [
+        35.9102171292671,
+        29.536002044428102
+      ],
+      [
+        36.127174891144186,
+        29.754031015837377
+      ],
+      [
+        36.17375642067174,
+        29.88154325978624
+      ]
+    ]
   },
   {
-    "id": 49,
+    "id": 60,
     "name": "Kekova",
     "country": "Turkey",
     "lat": 36.1876,
     "lon": 30.1247,
     "type": "anchorage",
-    "arrival": "2026-10-23",
-    "departure": "2026-10-25",
+    "arrival": "2026-11-22",
+    "departure": "2026-11-24",
     "duration": "2 days",
-    "distanceToNext": 12,
+    "distanceToNext": 13,
     "phase": "Turkey",
-    "schengen": false,
-    "marinaUrl": "https://www.navily.com/en/mouillage/kekova-roads/2923",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Kekova_Roads",
     "cultureHighlight": "Sunken city of Simena",
     "cultureUrl": "https://en.wikipedia.org/wiki/Kekova",
     "notes": "Unique sunken ruins",
@@ -1157,69 +1771,85 @@
     "foodUrl": "https://www.seakayakturkiye.com/",
     "adventureUrl": "https://kekovatravel.com/tour-type/kekova-sea-kayaking/",
     "provisionsUrl": "https://www.navily.com/port/ucagiz/2149",
-    "season": "fall"
+    "season": "fall",
+    "routeWaypoints": [
+      [
+        36.22761473993622,
+        30.251253479161328
+      ]
+    ],
+    "marinaName": "Ucagiz Limani (Kekova Roads)"
   },
   {
-    "id": 50,
+    "id": 61,
     "name": "Finike",
     "country": "Turkey",
-    "lat": 36.296,
-    "lon": 30.144,
-    "type": "marina",
-    "arrival": "2026-10-25",
-    "departure": "2026-10-28",
+    "lat": 36.3,
+    "lon": 30.14,
+    "type": "anchorage",
+    "arrival": "2026-11-24",
+    "departure": "2026-11-27",
     "duration": "3 days",
-    "distanceToNext": 50,
+    "distanceToNext": 44,
     "phase": "Turkey",
-    "schengen": false,
     "marinaName": "Setur Finike Marina",
-    "marinaUrl": "https://www.seturmarinas.com/Marina/Detail?marinaId=23",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Finike",
     "cultureHighlight": "Citrus groves & Limyra ruins",
     "cultureUrl": "https://en.wikipedia.org/wiki/Finike",
-    "notes": "Full-service marina",
+    "notes": "Anchorage in Finike Bay; protected, dinghy to town for provisions, visit Limyra ruins",
     "wikiUrl": "https://en.wikipedia.org/wiki/Limyra",
     "foodUrl": "https://www.fodors.com/world/europe/turkey/the-turquoise-coast/places/finike-and-arycanda",
     "adventureUrl": "https://www.allaboutturkey.com/olympos.html",
-    "provisionsUrl": "https://www.seturmarinas.com/Marina/Detail?marinaId=23",
-    "season": "fall"
+    "provisionsUrl": "https://www.allaboutturkey.com/finike.html",
+    "season": "fall",
+    "routeWaypoints": [
+      [
+        36.14949990895212,
+        30.489329318257976
+      ]
+    ]
   },
   {
-    "id": 51,
-    "name": "Kemer",
+    "id": 62,
+    "name": "Phaselis Bay (Kemer)",
     "country": "Turkey",
-    "lat": 36.5983,
-    "lon": 30.5583,
-    "type": "marina",
-    "arrival": "2026-10-28",
-    "departure": "2026-10-30",
+    "lat": 36.525,
+    "lon": 30.55,
+    "type": "anchorage",
+    "arrival": "2026-11-27",
+    "departure": "2026-11-29",
     "duration": "2 days",
-    "distanceToNext": 35,
+    "distanceToNext": 42,
     "phase": "Turkey",
-    "schengen": false,
-    "marinaName": "Kemer Marina",
-    "marinaUrl": "https://www.gmarinakemer.net/en",
-    "cultureHighlight": "Phaselis ancient city nearby",
+    "marinaName": "Phaselis South Harbour",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Kemer_Marina",
+    "cultureHighlight": "Phaselis ancient city",
     "cultureUrl": "https://en.wikipedia.org/wiki/Phaselis",
-    "notes": "Resort town with good marina",
+    "notes": "Historic anchorage at Phaselis Bay; swim ashore to ancient Lycian ruins, crystal clear water",
     "wikiUrl": "https://en.wikipedia.org/wiki/Phaselis",
     "foodUrl": "https://kemer-antalya.com/best-restaurants-in-kemer/",
     "adventureUrl": "https://www.visitantalya.com/",
-    "provisionsUrl": "https://www.navily.com/port/turkiz-marina-kemer/984",
-    "season": "fall"
+    "provisionsUrl": "https://www.visitantalya.com/",
+    "season": "fall",
+    "routeWaypoints": [
+      [
+        36.66562152236825,
+        30.719612764693096
+      ]
+    ]
   },
   {
-    "id": 52,
+    "id": 63,
     "name": "Antalya",
     "country": "Turkey",
     "lat": 36.8855,
     "lon": 30.7056,
     "type": "marina",
-    "arrival": "2026-10-30",
-    "departure": "2026-11-02",
+    "arrival": "2026-11-29",
+    "departure": "2026-12-02",
     "duration": "3 days",
     "distanceToNext": 62,
     "phase": "Turkey",
-    "schengen": false,
     "marinaName": "Setur Antalya Marina",
     "marinaUrl": "https://www.seturmarinas.com/Marina/Detail?marinaId=22",
     "cultureHighlight": "Kaleiçi old town & Antalya Museum",
@@ -1229,22 +1859,27 @@
     "foodUrl": "https://www.visitantalya.com/",
     "adventureUrl": "https://www.visitantalya.com/",
     "provisionsUrl": "https://www.seturmarinas.com/Marina/Detail?marinaId=22",
-    "season": "fall"
+    "season": "fall",
+    "routeWaypoints": [
+      [
+        36.629269954461535,
+        31.013899219530888
+      ]
+    ]
   },
   {
-    "id": 53,
+    "id": 64,
     "name": "Side",
     "country": "Turkey",
     "lat": 36.7672,
     "lon": 31.3903,
     "type": "anchorage",
-    "arrival": "2026-11-02",
-    "departure": "2026-11-04",
+    "arrival": "2026-12-02",
+    "departure": "2026-12-04",
     "duration": "2 days",
     "distanceToNext": 60,
     "phase": "Turkey",
-    "schengen": false,
-    "marinaUrl": "https://en.wikipedia.org/wiki/Side,_Turkey",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Turkey",
     "cultureHighlight": "Temple of Apollo & Roman theatre",
     "cultureUrl": "https://en.wikipedia.org/wiki/Side,_Turkey",
     "notes": "Ancient Greek port city",
@@ -1252,22 +1887,28 @@
     "foodUrl": "https://www.allaboutturkey.com/side.html",
     "adventureUrl": "https://www.allaboutturkey.com/side.html",
     "provisionsUrl": "https://www.navily.com/port/side/994",
-    "season": "fall"
+    "season": "winter",
+    "routeWaypoints": [
+      [
+        36.59905090311449,
+        31.677677045389128
+      ]
+    ],
+    "marinaName": "Side Ancient Harbour"
   },
   {
-    "id": 54,
+    "id": 65,
     "name": "Alanya",
     "country": "Turkey",
     "lat": 36.5437,
     "lon": 32.006,
     "type": "marina",
-    "arrival": "2026-11-04",
-    "departure": "2026-11-07",
+    "arrival": "2026-12-04",
+    "departure": "2026-12-07",
     "duration": "3 days",
     "distanceToNext": 91,
     "phase": "Turkey",
-    "schengen": false,
-    "marinaUrl": "https://www.navily.com/en/port/alanya-marina/1427",
+    "marinaUrl": "https://en.wikipedia.org/wiki/Alanya",
     "cultureHighlight": "Alanya Castle & Red Tower",
     "cultureUrl": "https://en.wikipedia.org/wiki/Alanya",
     "notes": "Historic harbor",
@@ -1275,21 +1916,39 @@
     "foodUrl": "https://www.allaboutturkey.com/alanya.html",
     "adventureUrl": "https://www.allaboutturkey.com/alanya.html",
     "provisionsUrl": "https://www.navily.com/port/alanya-marina/983",
-    "season": "fall"
+    "season": "winter",
+    "marinaName": "Alanya Marina",
+    "routeWaypoints": [
+      [
+        36.178828391575934,
+        32.347845870775174
+      ],
+      [
+        36.1193008922894,
+        32.46100878410677
+      ],
+      [
+        36.07814779376584,
+        32.582069886889236
+      ],
+      [
+        35.77625848847587,
+        32.749522007678415
+      ]
+    ]
   },
   {
-    "id": 55,
+    "id": 66,
     "name": "Anamur",
     "country": "Turkey",
     "lat": 36.0753,
     "lon": 32.837,
     "type": "marina",
-    "arrival": "2026-11-07",
-    "departure": "2026-11-10",
+    "arrival": "2026-12-07",
+    "departure": "2026-12-10",
     "duration": "3 days",
-    "distanceToNext": 93,
+    "distanceToNext": 148,
     "phase": "Turkey",
-    "schengen": false,
     "marinaUrl": "https://en.wikipedia.org/wiki/Anamur",
     "cultureHighlight": "Anemurium ancient city",
     "cultureUrl": "https://en.wikipedia.org/wiki/Mamure_Castle",
@@ -1297,155 +1956,124 @@
     "wikiUrl": "https://en.wikipedia.org/wiki/Anemurium",
     "foodUrl": "https://www.tripadvisor.com/Tourism-g608889-Anamur_Mersin_Province_Turkish_Mediterranean_Coast-Vacations.html",
     "adventureUrl": "https://www.tripadvisor.com/Attraction_Review-g608889-d3519993-Reviews-Mamure_Kalesi-Anamur_Mersin_Province_Turkish_Mediterranean_Coast.html",
-    "provisionsUrl": "https://www.navily.com/mouillage/anamur/42962",
-    "season": "fall"
+    "provisionsUrl": "https://www.navily.com/region/anamur/10880",
+    "season": "winter",
+    "marinaName": "Anamur Harbour",
+    "routeWaypoints": [
+      [
+        35.6,
+        32.2
+      ],
+      [
+        35.2,
+        32.2
+      ]
+    ]
   },
   {
-    "id": 56,
-    "name": "Girne (Kyrenia)",
-    "country": "Northern Cyprus",
-    "lat": 35.34,
-    "lon": 33.32,
+    "id": 67,
+    "name": "Latchi",
+    "country": "Cyprus",
+    "lat": 35.042,
+    "lon": 32.395,
+    "type": "anchorage",
+    "duration": "2 days",
+    "phase": "Cyprus",
+    "marinaName": "Latchi Harbour",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Cyprus",
+    "cultureHighlight": "Akamas Peninsula & Baths of Aphrodite",
+    "cultureUrl": "https://en.wikipedia.org/wiki/Akamas",
+    "notes": "First Cyprus stop, Akamas hiking, sea caves"
+  },
+  {
+    "id": 68,
+    "name": "Limassol",
+    "country": "Cyprus",
+    "lat": 34.6757,
+    "lon": 33.0442,
     "type": "marina",
-    "arrival": "2026-11-10",
-    "departure": "2026-11-15",
-    "duration": "5 days",
-    "distanceToNext": 56,
-    "phase": "Northern Cyprus",
-    "schengen": false,
-    "marinaName": "Kyrenia Harbor",
-    "marinaUrl": "https://www.navily.com/port/kyrenia-new-harbour/2908",
-    "cultureHighlight": "Kyrenia Castle & harbor",
-    "cultureUrl": "https://en.wikipedia.org/wiki/Kyrenia",
-    "notes": "Entry to Cyprus",
-    "wikiUrl": "https://en.wikipedia.org/wiki/Kyrenia",
-    "foodUrl": "https://www.northcyprus.cc/kyrenia/",
-    "adventureUrl": "https://www.northcyprus.cc/kyrenia/",
-    "provisionsUrl": "https://www.navily.com/mouillage/kyrenia/47231",
-    "season": "fall"
+    "duration": "3 days",
+    "phase": "Cyprus",
+    "marinaName": "Limassol Marina",
+    "marinaUrl": "https://www.limassolmarina.com/",
+    "cultureHighlight": "Old town & Limassol Castle",
+    "cultureUrl": "https://en.wikipedia.org/wiki/Limassol",
+    "notes": "Break up Latchi-Larnaca transit, provisioning",
+    "routeWaypoints": [
+      [
+        34.55841804248044,
+        33.560979400069684
+      ]
+    ]
   },
   {
-    "id": 57,
+    "id": 69,
     "name": "Larnaca",
     "country": "Cyprus",
     "lat": 34.9167,
     "lon": 33.65,
     "type": "marina",
-    "arrival": "2026-11-15",
-    "departure": "2026-11-25",
-    "duration": "10 days",
-    "distanceToNext": 61,
+    "duration": "80 days",
     "phase": "Cyprus",
-    "schengen": false,
     "marinaName": "Larnaca Marina",
-    "marinaUrl": "https://www.navily.com/carte/port/1570",
+    "marinaUrl": "https://en.wikipedia.org/wiki/Larnaca",
     "cultureHighlight": "Salt Lake & Hala Sultan Tekke",
     "cultureUrl": "https://en.wikipedia.org/wiki/Larnaca",
-    "notes": "Extended stay",
+    "notes": "Winter layover — 2 months. Day trips to Nicosia, Troodos mountains",
     "wikiUrl": "https://en.wikipedia.org/wiki/Hala_Sultan_Tekke",
     "foodUrl": "https://larnakaregion.com/",
     "adventureUrl": "https://www.visitcyprus.com/index.php/en/discovercyprus/sun-sea/diving",
     "provisionsUrl": "https://www.navily.com/port/larnaca-marina/920",
-    "season": "fall"
+    "season": "winter",
+    "routeWaypoints": [
+      [
+        34.55841804248044,
+        33.560979400069684
+      ]
+    ]
   },
   {
-    "id": 58,
+    "id": 70,
     "name": "Limassol",
     "country": "Cyprus",
     "lat": 34.6757,
     "lon": 33.0442,
     "type": "marina",
-    "arrival": "2026-11-25",
-    "departure": "2027-01-26",
-    "duration": "62 days",
-    "distanceToNext": 59,
+    "duration": "2 days",
     "phase": "Cyprus",
-    "schengen": false,
-    "marinaName": "Limassol Marina",
-    "marinaUrl": "https://www.limassolmarina.com/",
-    "cultureHighlight": "Old town & Limassol Castle",
-    "cultureUrl": "https://www.visitcyprus.com/index.php/en/discovercyprus/limassol",
-    "notes": "Winter base - long-term stay",
-    "foodUrl": "https://www.limassoltourism.com/",
-    "adventureUrl": "https://www.adventuremountainpark.com/",
-    "provisionsUrl": "https://www.limassolmarina.com/",
-    "wikiUrl": "https://en.wikipedia.org/wiki/Limassol",
-    "season": "fall"
-  },
-  {
-    "id": 59,
-    "name": "Paphos",
-    "country": "Cyprus",
-    "lat": 34.7548,
-    "lon": 32.4086,
-    "type": "marina",
-    "arrival": "2027-01-26",
-    "departure": "2027-02-05",
-    "duration": "10 days",
-    "distanceToNext": 59,
-    "phase": "Cyprus",
-    "schengen": false,
-    "marinaName": "Paphos Harbor",
-    "marinaUrl": "https://www.navily.com/port/paphos/2911",
-    "cultureHighlight": "Paphos Archaeological Park (UNESCO)",
-    "cultureUrl": "https://whc.unesco.org/en/list/79/",
-    "notes": "UNESCO mosaics",
-    "wikiUrl": "https://whc.unesco.org/en/list/79/",
-    "foodUrl": "https://www.visitpafos.org.cy/",
-    "adventureUrl": "https://www.visitcyprus.com/destinations/akamas",
-    "provisionsUrl": "https://www.navily.com/port/paphos-harbour/917",
-    "season": "winter"
-  },
-  {
-    "id": 60,
-    "name": "Limassol",
-    "country": "Cyprus",
-    "lat": 34.6757,
-    "lon": 33.0442,
-    "type": "marina",
-    "arrival": "2027-02-05",
-    "departure": "2027-02-06",
-    "duration": "1 day",
-    "distanceToNext": 60,
-    "phase": "Cyprus",
-    "schengen": false,
     "marinaName": "Limassol Marina",
     "marinaUrl": "https://www.limassolmarina.com/",
     "cultureHighlight": "Old town & Limassol Castle",
     "cultureUrl": "https://en.wikipedia.org/wiki/Limassol",
-    "notes": "Brief stop en route to Larnaca",
-    "foodUrl": "https://www.limassoltourism.com/",
-    "adventureUrl": "https://www.adventuremountainpark.com/",
-    "provisionsUrl": "https://www.limassolmarina.com/",
-    "wikiUrl": "https://en.wikipedia.org/wiki/Limassol",
-    "season": "winter"
+    "notes": "Return transit, provisioning before open water"
   },
   {
-    "id": 61,
-    "name": "Larnaca",
+    "id": 71,
+    "name": "Latchi",
     "country": "Cyprus",
-    "lat": 34.9167,
-    "lon": 33.6361,
-    "type": "marina",
-    "arrival": "2027-02-06",
-    "departure": "2027-02-09",
-    "duration": "3 days",
-    "distanceToNext": 148,
+    "lat": 35.042,
+    "lon": 32.395,
+    "type": "anchorage",
+    "duration": "2 days",
     "phase": "Cyprus",
-    "schengen": false,
-    "marinaName": "Larnaca Marina",
-    "marinaUrl": "https://www.navily.com/carte/port/1570",
-    "cultureHighlight": "Salt Lake & Hala Sultan Tekke",
-    "cultureUrl": "https://en.wikipedia.org/wiki/Hala_Sultan_Tekke",
-    "notes": "Start return from Cyprus",
-    "wikiUrl": "https://en.wikipedia.org/wiki/Hala_Sultan_Tekke",
-    "foodUrl": "https://larnakaregion.com/",
-    "adventureUrl": "https://www.visitcyprus.com/index.php/en/discovercyprus/sun-sea/diving",
-    "provisionsUrl": "https://www.navily.com/port/larnaca-marina/920",
-    "season": "winter"
+    "marinaName": "Latchi Harbour",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Cyprus",
+    "cultureHighlight": "Akamas Peninsula & Baths of Aphrodite",
+    "cultureUrl": "https://en.wikipedia.org/wiki/Akamas",
+    "notes": "Last Cyprus stop before Turkey crossing",
+    "routeWaypoints": [
+      [
+        35.2,
+        32.2
+      ],
+      [
+        35.6,
+        32.2
+      ]
+    ]
   },
   {
-    "id": 62,
+    "id": 72,
     "name": "Anamur",
     "country": "Turkey",
     "lat": 36.0753,
@@ -1456,7 +2084,6 @@
     "duration": "3 days",
     "distanceToNext": 91,
     "phase": "Turkey",
-    "schengen": false,
     "marinaUrl": "https://en.wikipedia.org/wiki/Anamur",
     "cultureHighlight": "Anemurium ancient city",
     "cultureUrl": "https://en.wikipedia.org/wiki/Anemurium",
@@ -1464,11 +2091,30 @@
     "wikiUrl": "https://en.wikipedia.org/wiki/Anemurium",
     "foodUrl": "https://www.tripadvisor.com/Tourism-g608889-Anamur_Mersin_Province_Turkish_Mediterranean_Coast-Vacations.html",
     "adventureUrl": "https://www.tripadvisor.com/Attraction_Review-g608889-d3519993-Reviews-Mamure_Kalesi-Anamur_Mersin_Province_Turkish_Mediterranean_Coast.html",
-    "provisionsUrl": "https://www.navily.com/mouillage/anamur/42962",
-    "season": "winter"
+    "provisionsUrl": "https://www.navily.com/region/anamur/10880",
+    "season": "winter",
+    "marinaName": "Anamur Harbour",
+    "routeWaypoints": [
+      [
+        35.77627790120443,
+        32.7496235499125
+      ],
+      [
+        36.078204109082854,
+        32.582599948603715
+      ],
+      [
+        36.11938277176493,
+        32.461826306033345
+      ],
+      [
+        36.17892731833337,
+        32.34897063726142
+      ]
+    ]
   },
   {
-    "id": 63,
+    "id": 73,
     "name": "Alanya",
     "country": "Turkey",
     "lat": 36.5437,
@@ -1479,7 +2125,6 @@
     "duration": "3 days",
     "distanceToNext": 60,
     "phase": "Turkey",
-    "schengen": false,
     "marinaUrl": "https://en.wikipedia.org/wiki/Alanya",
     "cultureHighlight": "Alanya Castle",
     "cultureUrl": "https://en.wikipedia.org/wiki/Alanya_Castle",
@@ -1488,10 +2133,17 @@
     "foodUrl": "https://www.allaboutturkey.com/alanya.html",
     "adventureUrl": "https://www.allaboutturkey.com/alanya.html",
     "provisionsUrl": "https://www.navily.com/port/alanya-marina/983",
-    "season": "winter"
+    "season": "winter",
+    "routeWaypoints": [
+      [
+        36.599023328520495,
+        31.679053168242486
+      ]
+    ],
+    "marinaName": "Alanya Marina"
   },
   {
-    "id": 64,
+    "id": 74,
     "name": "Side",
     "country": "Turkey",
     "lat": 36.7672,
@@ -1502,8 +2154,7 @@
     "duration": "1 day",
     "distanceToNext": 54,
     "phase": "Turkey",
-    "schengen": false,
-    "marinaUrl": "https://en.wikipedia.org/wiki/Side,_Turkey",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Turkey",
     "cultureHighlight": "Temple of Apollo & Roman theatre",
     "cultureUrl": "https://en.wikipedia.org/wiki/Side,_Turkey",
     "notes": "Return visit - ancient ruins",
@@ -1511,10 +2162,11 @@
     "foodUrl": "https://www.allaboutturkey.com/side.html",
     "adventureUrl": "https://www.allaboutturkey.com/side.html",
     "provisionsUrl": "https://www.navily.com/port/side/994",
-    "season": "winter"
+    "season": "winter",
+    "marinaName": "Side Ancient Harbour"
   },
   {
-    "id": 65,
+    "id": 75,
     "name": "Antalya",
     "country": "Turkey",
     "lat": 36.8527,
@@ -1525,7 +2177,6 @@
     "duration": "3 days",
     "distanceToNext": 84,
     "phase": "Turkey",
-    "schengen": false,
     "marinaName": "Setur Antalya Marina",
     "marinaUrl": "https://www.seturmarinas.com/Marina/Detail?marinaId=22",
     "cultureHighlight": "Antalya Archaeological Museum",
@@ -1535,34 +2186,73 @@
     "foodUrl": "https://www.visitantalya.com/",
     "adventureUrl": "https://www.visitantalya.com/",
     "provisionsUrl": "https://www.seturmarinas.com/Marina/Detail?marinaId=22",
-    "season": "winter"
+    "season": "winter",
+    "routeWaypoints": [
+      [
+        36.57943756033471,
+        30.853881855981214
+      ],
+      [
+        36.49653256033471,
+        30.756501855981217
+      ],
+      [
+        36.38599256033471,
+        30.626661855981215
+      ],
+      [
+        36.275452560334706,
+        30.496821855981214
+      ],
+      [
+        36.1925475603347,
+        30.399441855981216
+      ]
+    ]
   },
   {
-    "id": 66,
+    "id": 76,
     "name": "Finike",
     "country": "Turkey",
-    "lat": 36.2976,
-    "lon": 30.1502,
-    "type": "marina",
+    "lat": 36.3,
+    "lon": 30.14,
+    "type": "anchorage",
     "arrival": "2027-02-19",
     "departure": "2027-02-22",
     "duration": "3 days",
-    "distanceToNext": 47,
+    "distanceToNext": 46,
     "phase": "Turkey",
-    "schengen": false,
     "marinaName": "Setur Finike Marina",
-    "marinaUrl": "https://www.seturmarinas.com/Marina/Detail?marinaId=23",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Finike",
     "cultureHighlight": "Limyra ancient city",
     "cultureUrl": "https://en.wikipedia.org/wiki/Limyra",
-    "notes": "Return route",
+    "notes": "Return route; anchorage in Finike Bay, visit Limyra & Arycanda ruins",
     "wikiUrl": "https://en.wikipedia.org/wiki/Limyra",
     "foodUrl": "https://www.fodors.com/world/europe/turkey/the-turquoise-coast/places/finike-and-arycanda",
     "adventureUrl": "https://www.allaboutturkey.com/olympos.html",
-    "provisionsUrl": "https://www.seturmarinas.com/Marina/Detail?marinaId=23",
-    "season": "winter"
+    "provisionsUrl": "https://www.allaboutturkey.com/finike.html",
+    "season": "winter",
+    "routeWaypoints": [
+      [
+        35.994475649377186,
+        30.206687485705796
+      ],
+      [
+        36.17150294328697,
+        29.90538627722128
+      ],
+      [
+        36.13598400836204,
+        29.767085234612054
+      ],
+      [
+        35.91054125754071,
+        29.54724873546343
+      ]
+    ]
   },
   {
-    "id": 67,
+    "id": 77,
     "name": "Kaş",
     "country": "Turkey",
     "lat": 36.1999,
@@ -1573,7 +2263,6 @@
     "duration": "3 days",
     "distanceToNext": 7,
     "phase": "Turkey",
-    "schengen": false,
     "marinaName": "Setur Kaş Marina",
     "marinaUrl": "https://www.kasmarina.com.tr/",
     "cultureHighlight": "Antiphellos ancient theater",
@@ -1583,10 +2272,32 @@
     "foodUrl": "https://turkeytravelguide.com/destinations/kas/",
     "adventureUrl": "https://bucketlistbums.com/single-post/kasturkey/",
     "provisionsUrl": "https://kasmarina.com.tr/",
-    "season": "winter"
+    "season": "winter",
+    "routeWaypoints": [
+      [
+        36.2106117084328,
+        29.43938852316692
+      ],
+      [
+        36.17817965921089,
+        29.63704350981225
+      ],
+      [
+        36.18154710607506,
+        29.622621586774148
+      ],
+      [
+        36.1674781117279,
+        29.61799611808873
+      ],
+      [
+        36.024776433337344,
+        29.668131507131996
+      ]
+    ]
   },
   {
-    "id": 68,
+    "id": 78,
     "name": "Kastellorizo",
     "country": "Greece",
     "lat": 36.15,
@@ -1595,45 +2306,58 @@
     "arrival": "2027-02-25",
     "departure": "2027-02-27",
     "duration": "2 days",
-    "distanceToNext": 126,
+    "distanceToNext": 135,
     "phase": "Greece",
-    "schengen": true,
-    "marinaUrl": "https://www.navily.com/port/kastellorizo/14768",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Kastelorizo",
     "cultureHighlight": "Blue Grotto & colorful harbor",
     "cultureUrl": "https://en.wikipedia.org/wiki/Kastellorizo",
     "notes": "Greek island 2km off Turkey coast",
     "wikiUrl": "https://en.wikipedia.org/wiki/Kastellorizo",
-    "foodUrl": "https://www.visitgreece.gr/islands/dodecanese/castellorizo/",
+    "foodUrl": "https://en.wikipedia.org/wiki/Kastellorizo",
     "adventureUrl": "https://visitkastellorizo.gr/",
     "provisionsUrl": "https://www.navily.com/mouillage/kastellorizo/44689",
-    "season": "winter"
+    "season": "winter",
+    "marinaName": "Megisti Harbour (Mandraki Anchorage)"
   },
   {
-    "id": 69,
-    "name": "Rhodes",
+    "id": 79,
+    "name": "Lindos (Rhodes)",
     "country": "Greece",
-    "lat": 36.4341,
-    "lon": 28.2175,
-    "type": "marina",
+    "lat": 36.09,
+    "lon": 28.085,
+    "type": "anchorage",
     "arrival": "2027-02-27",
     "departure": "2027-03-02",
     "duration": "3 days",
-    "distanceToNext": 59,
+    "distanceToNext": 45,
     "phase": "Greece",
-    "schengen": true,
-    "marinaName": "Mandraki Marina",
-    "marinaUrl": "https://www.cruiserswiki.org/wiki/Rhodes",
-    "cultureHighlight": "Medieval Old Town (UNESCO)",
+    "marinaName": "Lindos Bay Anchorage",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Lindos",
+    "cultureHighlight": "Acropolis of Lindos & Medieval Old Town",
     "cultureUrl": "https://whc.unesco.org/en/list/493/",
-    "notes": "Site of Colossus, Knights of St John",
+    "notes": "Stunning Lindos Bay anchorage; walk to ancient Acropolis, whitewashed village, bus to Rhodes Old Town UNESCO",
     "wikiUrl": "https://whc.unesco.org/en/list/493/",
     "foodUrl": "https://visit-rhodes.gr/",
     "adventureUrl": "https://www.greeka.com/dodecanese/rhodes/sightseeing/",
-    "provisionsUrl": "https://rhodesmarina.com/",
-    "season": "winter"
+    "provisionsUrl": "https://visit-rhodes.gr/",
+    "season": "winter",
+    "routeWaypoints": [
+      [
+        35.83400714378487,
+        27.88646341472711
+      ],
+      [
+        35.86693214378487,
+        27.76871341472711
+      ],
+      [
+        35.89985714378487,
+        27.650963414727112
+      ]
+    ]
   },
   {
-    "id": 70,
+    "id": 80,
     "name": "Chalki",
     "country": "Greece",
     "lat": 36.2217,
@@ -1644,20 +2368,19 @@
     "duration": "2 days",
     "distanceToNext": 87,
     "phase": "Greece",
-    "schengen": true,
-    "marinaName": "",
+    "marinaName": "Emborio Harbour",
     "marinaUrl": "https://www.cruiserswiki.org/wiki/Chalki",
     "cultureHighlight": "Traditional sponge-fishing island",
-    "cultureUrl": "https://en.wikipedia.org/wiki/Chalki_(Greece)",
+    "cultureUrl": "https://en.wikipedia.org/wiki/Halki_(Greece)",
     "notes": "Peaceful Dodecanese island",
-    "wikiUrl": "https://en.wikipedia.org/wiki/Chalki_(Greece)",
+    "wikiUrl": "https://en.wikipedia.org/wiki/Halki_(Greece)",
     "foodUrl": "https://www.greeka.com/dodecanese/halki/",
     "adventureUrl": "https://www.greeka.com/dodecanese/halki/beaches/",
-    "provisionsUrl": "https://www.navily.com/port/halki/47487",
+    "provisionsUrl": "https://www.navily.com/port/chalki/1964",
     "season": "winter"
   },
   {
-    "id": 71,
+    "id": 81,
     "name": "Karpathos",
     "country": "Greece",
     "lat": 35.5106,
@@ -1668,19 +2391,33 @@
     "duration": "2 days",
     "distanceToNext": 29,
     "phase": "Greece",
-    "schengen": true,
-    "marinaUrl": "https://www.cruiserswiki.org/wiki/Karpathos",
+    "marinaUrl": "https://en.wikipedia.org/wiki/Karpathos",
     "cultureHighlight": "Olympos village - living folklore museum",
     "cultureUrl": "https://en.wikipedia.org/wiki/Olympos,_Karpathos",
     "notes": "Between Turkey and Crete",
     "wikiUrl": "https://en.wikipedia.org/wiki/Olympos,_Karpathos",
-    "foodUrl": "https://www.visitgreece.gr/islands/dodecanese/karpathos/",
-    "adventureUrl": "https://www.visitgreece.gr/islands/dodecanese/karpathos/",
+    "foodUrl": "https://www.greeka.com/dodecanese/karpathos/eat-drink/",
+    "adventureUrl": "https://www.greeka.com/dodecanese/karpathos/things-to-do/",
     "provisionsUrl": "https://www.navily.com/port/pigadia/1551",
-    "season": "winter"
+    "season": "winter",
+    "routeWaypoints": [
+      [
+        35.20275997313313,
+        27.24932629386758
+      ],
+      [
+        35.4541166548647,
+        27.0679691605673
+      ],
+      [
+        35.445115771690524,
+        26.989933429314977
+      ]
+    ],
+    "marinaName": "Karpathos Harbour"
   },
   {
-    "id": 72,
+    "id": 82,
     "name": "Kasos",
     "country": "Greece",
     "lat": 35.4167,
@@ -1689,46 +2426,56 @@
     "arrival": "2027-03-06",
     "departure": "2027-03-09",
     "duration": "3 days",
-    "distanceToNext": 77,
+    "distanceToNext": 78,
     "phase": "Greece",
-    "schengen": true,
-    "marinaName": "",
+    "marinaName": "Helatros Bay",
     "marinaUrl": "https://www.cruiserswiki.org/wiki/Kasos",
     "cultureHighlight": "Maritime Museum & Bouka old harbor",
     "cultureUrl": "https://en.wikipedia.org/wiki/Kasos",
     "notes": "Traditional seafaring island",
     "wikiUrl": "https://en.wikipedia.org/wiki/Kasos",
-    "foodUrl": "https://www.visitgreece.gr/islands/dodecanese/kasos/",
-    "adventureUrl": "https://www.visitgreece.gr/islands/dodecanese/kasos/",
-    "provisionsUrl": "https://www.navily.com/port/fry-kasos/47496",
-    "season": "winter"
+    "foodUrl": "https://www.greeka.com/dodecanese/kasos/",
+    "adventureUrl": "https://www.greeka.com/dodecanese/kasos/",
+    "provisionsUrl": "https://www.navily.com/region/dodecanese/10535",
+    "season": "winter",
+    "routeWaypoints": [
+      [
+        35.429681980858966,
+        26.478907339973617
+      ]
+    ]
   },
   {
-    "id": 73,
+    "id": 83,
     "name": "Sitia",
     "country": "Greece",
-    "lat": 35.208,
-    "lon": 26.108,
-    "type": "marina",
+    "lat": 35.21,
+    "lon": 26.1,
+    "type": "anchorage",
     "arrival": "2027-03-09",
     "departure": "2027-03-11",
     "duration": "2 days",
-    "distanceToNext": 36,
+    "distanceToNext": 35,
     "phase": "Greece",
-    "schengen": true,
-    "marinaName": "Sitia Marina",
-    "marinaUrl": "https://www.navily.com/port/marina-sitia/1562",
+    "marinaName": "Port of Sitia",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Sitia",
     "cultureHighlight": "Toplou Monastery & Vai palm forest",
     "cultureUrl": "https://en.wikipedia.org/wiki/Sitia",
-    "notes": "Eastern Crete entry",
+    "notes": "Anchorage in Sitia Bay; protected, dinghy to charming town, visit Toplou Monastery & Vai palms",
     "wikiUrl": "https://en.wikipedia.org/wiki/Sitia",
     "foodUrl": "https://www.incrediblecrete.gr/en/sitia/",
     "adventureUrl": "https://www.incrediblecrete.gr/en/lasithi/",
-    "provisionsUrl": "https://www.navily.com/port/sitia-marina/921",
-    "season": "winter"
+    "provisionsUrl": "https://www.incrediblecrete.gr/en/sitia/",
+    "season": "winter",
+    "routeWaypoints": [
+      [
+        35.40062244684542,
+        25.898812207729527
+      ]
+    ]
   },
   {
-    "id": 74,
+    "id": 84,
     "name": "Agios Nikolaos",
     "country": "Greece",
     "lat": 35.1917,
@@ -1739,8 +2486,7 @@
     "duration": "2 days",
     "distanceToNext": 56,
     "phase": "Greece",
-    "schengen": true,
-    "marinaUrl": "https://www.navily.com/port/agios-nikolaos/1534",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Ayios_Nikolaos",
     "cultureHighlight": "Lake Voulismeni & Spinalonga island",
     "cultureUrl": "https://en.wikipedia.org/wiki/Agios_Nikolaos,_Crete",
     "notes": "Charming harbor town",
@@ -1748,22 +2494,40 @@
     "foodUrl": "https://www.incrediblecrete.gr/en/agios-nikolaos/",
     "adventureUrl": "https://www.incrediblecrete.gr/en/lasithi/",
     "provisionsUrl": "https://www.marinaofagiosnikolaos.gr/",
-    "season": "winter"
+    "season": "winter",
+    "routeWaypoints": [
+      [
+        35.4083719900923,
+        25.871038199935864
+      ],
+      [
+        35.341472158048674,
+        25.613566951594354
+      ],
+      [
+        35.30592226522917,
+        25.435229265951296
+      ],
+      [
+        35.40372261694063,
+        25.294150507078406
+      ]
+    ],
+    "marinaName": "Agios Nikolaos Marina"
   },
   {
-    "id": 75,
+    "id": 85,
     "name": "Heraklion",
     "country": "Greece",
     "lat": 35.3427,
     "lon": 25.1337,
     "type": "marina",
     "arrival": "2027-03-13",
-    "departure": "2027-03-16",
+    "departure": "2027-03-15",
     "duration": "3 days",
-    "distanceToNext": 61,
+    "distanceToNext": 60,
     "phase": "Greece",
-    "schengen": true,
-    "marinaUrl": "https://www.explorecrete.com/heraklion/en19-heraklion-yachts-marina",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Iraklio",
     "cultureHighlight": "Palace of Knossos (UNESCO)",
     "cultureUrl": "https://en.wikipedia.org/wiki/Knossos",
     "notes": "Minoan palace - must visit",
@@ -1771,45 +2535,56 @@
     "foodUrl": "https://www.incrediblecrete.gr/en/elounda/",
     "adventureUrl": "https://www.incrediblecrete.gr/en/lasithi/",
     "provisionsUrl": "https://www.navily.com/mouillage/elounda/42015",
-    "season": "winter"
+    "season": "winter",
+    "routeWaypoints": [
+      [
+        35.606138777099154,
+        24.812124572268807
+      ]
+    ],
+    "marinaName": "Heraklion Marina"
   },
   {
-    "id": 76,
+    "id": 86,
     "name": "Rethymno",
     "country": "Greece",
-    "lat": 35.3667,
-    "lon": 24.4667,
-    "type": "marina",
-    "arrival": "2027-03-16",
-    "departure": "2027-03-18",
+    "lat": 35.37,
+    "lon": 24.47,
+    "type": "anchorage",
+    "arrival": "2027-03-15",
+    "departure": "2027-03-17",
     "duration": "2 days",
     "distanceToNext": 44,
     "phase": "Greece",
-    "schengen": true,
     "marinaName": "Rethymno Marina",
-    "marinaUrl": "https://marine-project.com/marinas/marina-rethymno-greece-crete/",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Rethimno",
     "cultureHighlight": "Fortezza Venetian citadel",
     "cultureUrl": "https://en.wikipedia.org/wiki/Fortezza_of_Rethymno",
-    "notes": "Beautiful Venetian old town",
+    "notes": "Anchorage off Rethymno; calm conditions required, dinghy to Venetian old town & Fortezza",
     "wikiUrl": "https://en.wikipedia.org/wiki/Fortezza_of_Rethymno",
-    "foodUrl": "https://www.heraklion.gr/en/visitor",
-    "adventureUrl": "https://www.incrediblecrete.gr/en/heraklion/",
-    "provisionsUrl": "https://www.navily.com/port/heraklion-marina/927",
-    "season": "winter"
+    "foodUrl": "https://www.incrediblecrete.gr/en/rethymno/",
+    "adventureUrl": "https://www.incrediblecrete.gr/en/rethymno/",
+    "provisionsUrl": "https://www.incrediblecrete.gr/en/rethymno/",
+    "season": "winter",
+    "routeWaypoints": [
+      [
+        35.765021414161296,
+        24.22345571294592
+      ]
+    ]
   },
   {
-    "id": 77,
+    "id": 87,
     "name": "Chania",
     "country": "Greece",
     "lat": 35.5161,
     "lon": 24.0182,
     "type": "marina",
-    "arrival": "2027-03-18",
-    "departure": "2027-03-20",
+    "arrival": "2027-03-17",
+    "departure": "2027-03-19",
     "duration": "2 days",
     "distanceToNext": 115,
     "phase": "Greece",
-    "schengen": true,
     "marinaUrl": "https://www.cruiserswiki.org/wiki/Chania",
     "cultureHighlight": "Venetian Harbour & Old Town",
     "cultureUrl": "https://en.wikipedia.org/wiki/Chania",
@@ -1818,46 +2593,57 @@
     "foodUrl": "https://www.incrediblecrete.gr/en/rethymno/",
     "adventureUrl": "https://www.incrediblecrete.gr/en/rethymnon/",
     "provisionsUrl": "https://www.navily.com/port/rethymno-marina/928",
-    "season": "winter"
+    "season": "winter",
+    "routeWaypoints": [
+      [
+        35.84512594160862,
+        23.51701211881315
+      ]
+    ],
+    "marinaName": "Chania Old Port"
   },
   {
-    "id": 78,
-    "name": "Kythira",
+    "id": 88,
+    "name": "Kapsali (Kythira)",
     "country": "Greece",
-    "lat": 36.1438,
-    "lon": 23.0011,
-    "type": "marina",
-    "arrival": "2027-03-20",
-    "departure": "2027-03-22",
+    "lat": 36.14,
+    "lon": 22.995,
+    "type": "anchorage",
+    "arrival": "2027-03-19",
+    "departure": "2027-03-21",
     "duration": "2 days",
     "distanceToNext": 79,
     "phase": "Greece",
-    "schengen": true,
-    "marinaName": "Kapsali Marina",
-    "marinaUrl": "https://www.imaps.gr/map/point/304",
+    "marinaName": "Kapsali Anchorage",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Cythera",
     "cultureHighlight": "Chora Castle - Eye of Crete",
     "cultureUrl": "https://en.wikipedia.org/wiki/Kythira",
-    "notes": "Strategic island between Crete & Peloponnese",
+    "notes": "Very protected Kapsali Bay anchorage; twin beaches, walk up to Chora Castle",
     "wikiUrl": "https://en.wikipedia.org/wiki/Kythira",
     "foodUrl": "https://www.greeka.com/ionian/kythira/",
     "adventureUrl": "https://www.greeka.com/ionian/kythira/sightseeing/",
-    "provisionsUrl": "https://www.navily.com/port/kapsali/14461",
-    "season": "winter"
+    "provisionsUrl": "https://www.greeka.com/ionian/kythira/",
+    "season": "winter",
+    "routeWaypoints": [
+      [
+        36.33652785941609,
+        22.615186423395198
+      ]
+    ]
   },
   {
-    "id": 79,
+    "id": 89,
     "name": "Gytheio",
     "country": "Greece",
     "lat": 36.7611,
     "lon": 22.564,
     "type": "anchorage",
-    "arrival": "2027-03-22",
-    "departure": "2027-03-24",
+    "arrival": "2027-03-21",
+    "departure": "2027-03-23",
     "duration": "2 days",
     "distanceToNext": 50,
     "phase": "Greece",
-    "schengen": true,
-    "marinaUrl": "https://www.cruisemapper.com/ports/gythion-port-273",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/South_Peloponnese",
     "cultureHighlight": "Mani tower houses & Cranae Island",
     "cultureUrl": "https://en.wikipedia.org/wiki/Gytheio",
     "notes": "Ancient port of Sparta",
@@ -1865,235 +2651,353 @@
     "foodUrl": "https://wanderlog.com/list/geoCategory/201239/where-to-eat-best-restaurants-in-gytheio",
     "adventureUrl": "https://www.greeka.com/peloponnese/gythio/sightseeing/",
     "provisionsUrl": "https://www.navily.com/port/gytheio/14463",
-    "season": "winter"
+    "season": "winter",
+    "marinaName": "Gythion Marina",
+    "routeWaypoints": [
+      [
+        36.55,
+        22.3
+      ],
+      [
+        36.7,
+        22
+      ]
+    ]
   },
   {
-    "id": 80,
+    "id": 90,
     "name": "Kalamata",
     "country": "Greece",
-    "lat": 37.0281,
-    "lon": 22.1139,
-    "type": "marina",
-    "arrival": "2027-03-24",
-    "departure": "2027-03-26",
+    "lat": 37.03,
+    "lon": 22.11,
+    "type": "anchorage",
+    "arrival": "2027-03-23",
+    "departure": "2027-03-25",
     "duration": "2 days",
     "distanceToNext": 39,
     "phase": "Greece",
-    "schengen": true,
     "marinaName": "Kalamata Marina",
-    "marinaUrl": "https://greek-marinas.gr/en/marinas/kalamata-marina/",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Kalamata_Marina",
     "cultureHighlight": "Old town & railway park",
-    "cultureUrl": "https://www.visitgreece.gr/mainland/peloponnese/kalamata/",
-    "notes": "Peloponnese mainland",
+    "cultureUrl": "https://www.greeka.com/peloponnese/messinia/sightseeing/",
+    "notes": "Anchorage in Kalamata Bay; good holding, dinghy to town for olives, old town & railway park",
     "foodUrl": "https://www.davestravelpages.com/best-things-to-do-in-kalamata-greece/",
     "adventureUrl": "https://www.davestravelpages.com/best-things-to-do-in-kalamata-greece/",
-    "provisionsUrl": "https://www.navily.com/port/kalamata-marina/959",
+    "provisionsUrl": "https://www.greeka.com/peloponnese/messinia/",
     "wikiUrl": "https://en.wikipedia.org/wiki/Kalamata",
-    "season": "winter"
+    "season": "winter",
+    "routeWaypoints": [
+      [
+        36.875207230552114,
+        21.931080406252836
+      ],
+      [
+        36.64907594111699,
+        22.040188097044872
+      ],
+      [
+        36.63708597067854,
+        22.020286115725224
+      ],
+      [
+        36.621099343427275,
+        21.99375014063236
+      ],
+      [
+        36.60511271617601,
+        21.9672141655395
+      ],
+      [
+        36.59312274573756,
+        21.94731218421985
+      ],
+      [
+        36.795274094295785,
+        21.798400530788516
+      ],
+      [
+        36.703777311365066,
+        21.613356740698464
+      ]
+    ]
   },
   {
-    "id": 81,
+    "id": 91,
     "name": "Pylos",
     "country": "Greece",
     "lat": 36.9128,
     "lon": 21.6975,
     "type": "anchorage",
-    "arrival": "2027-03-26",
-    "departure": "2027-03-28",
+    "arrival": "2027-03-25",
+    "departure": "2027-03-27",
     "duration": "2 days",
-    "distanceToNext": 90,
+    "distanceToNext": 91,
     "phase": "Greece",
-    "schengen": true,
-    "marinaUrl": "https://www.navily.com/mouillage/pylos/14498",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Pylos",
     "cultureHighlight": "Navarino Bay & Ottoman fortress",
     "cultureUrl": "https://en.wikipedia.org/wiki/Pylos",
     "notes": "Site of Battle of Navarino",
     "wikiUrl": "https://en.wikipedia.org/wiki/Pylos",
     "foodUrl": "https://wanderlog.com/list/geoCategory/199943/where-to-eat-best-restaurants-in-pylos-nestor",
     "adventureUrl": "https://pylosonline.gr/en/blog/what-to-do-in-pylos-history-nature-local-secrets/",
-    "provisionsUrl": "https://www.navily.com/mouillage/pylos/14498",
-    "season": "winter"
+    "provisionsUrl": "https://www.navily.com/port/pilos-marina/1458",
+    "season": "winter",
+    "routeWaypoints": [
+      [
+        37.25915524324429,
+        21.441688901770885
+      ]
+    ],
+    "marinaName": "Navarino Bay Anchorage (Pylos)"
   },
   {
-    "id": 82,
+    "id": 92,
     "name": "Katakolo",
     "country": "Greece",
-    "lat": 37.6717,
-    "lon": 21.3361,
-    "type": "marina",
-    "arrival": "2027-03-28",
-    "departure": "2027-03-30",
+    "lat": 37.675,
+    "lon": 21.33,
+    "type": "anchorage",
+    "arrival": "2027-03-27",
+    "departure": "2027-03-29",
     "duration": "2 days",
     "distanceToNext": 40,
     "phase": "Greece",
-    "schengen": true,
-    "marinaName": "",
+    "marinaName": "Katakolo Harbour",
     "marinaUrl": "https://www.cruiserswiki.org/wiki/Katakolo",
     "cultureHighlight": "Gateway to Ancient Olympia (UNESCO)",
     "cultureUrl": "https://whc.unesco.org/en/list/517/",
-    "notes": "Visit Olympia from here",
+    "notes": "Anchorage at Katakolo; calm conditions, taxi to Ancient Olympia UNESCO site (35km)",
     "wikiUrl": "https://whc.unesco.org/en/list/517/",
     "foodUrl": "https://www.katakolon.org/katakolon-restaurants-food-and-drink/",
     "adventureUrl": "https://olympiasightseeing.com/",
-    "provisionsUrl": "https://www.greecetravel.com/peloponnesos/katakolon/index.htm",
+    "provisionsUrl": "https://www.katakolon.org/",
     "season": "winter"
   },
   {
-    "id": 83,
+    "id": 93,
     "name": "Zakynthos",
     "country": "Greece",
-    "lat": 37.7814,
-    "lon": 20.898,
-    "type": "marina",
-    "arrival": "2027-03-30",
-    "departure": "2027-04-01",
+    "lat": 37.785,
+    "lon": 20.895,
+    "type": "anchorage",
+    "arrival": "2027-03-29",
+    "departure": "2027-03-31",
     "duration": "2 days",
-    "distanceToNext": 57,
+    "distanceToNext": 56,
     "phase": "Greece",
-    "schengen": true,
-    "marinaUrl": "https://www.navily.com/port/zakynthos/1673",
+    "marinaName": "Port Zakynthos (Zante Town)",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Zakinthos_(Zante)",
     "cultureHighlight": "Navagio Beach (Shipwreck Beach)",
     "cultureUrl": "https://en.wikipedia.org/wiki/Navagio",
-    "notes": "Iconic shipwreck beach",
+    "notes": "Anchorage in Zakynthos harbor; protected, dinghy to town, boat trip to Navagio Beach",
     "wikiUrl": "https://en.wikipedia.org/wiki/Navagio",
-    "foodUrl": "https://www.visitgreece.gr/islands/ionian/zakynthos/",
-    "adventureUrl": "https://www.visitgreece.gr/islands/ionian/zakynthos/",
-    "provisionsUrl": "https://www.navily.com/port/zakynthos-port/916",
-    "season": "winter"
+    "foodUrl": "https://www.greeka.com/ionian/zakynthos/eat-drink/",
+    "adventureUrl": "https://www.greeka.com/ionian/zakynthos/things-to-do/",
+    "provisionsUrl": "https://www.greeka.com/ionian/zakynthos/",
+    "season": "winter",
+    "routeWaypoints": [
+      [
+        37.96898386912434,
+        20.8709571028776
+      ],
+      [
+        37.97534110310746,
+        20.685517865993695
+      ],
+      [
+        37.97405437441769,
+        20.479298397152178
+      ]
+    ]
   },
   {
-    "id": 84,
+    "id": 94,
     "name": "Argostoli",
     "country": "Greece",
-    "lat": 38.1832,
-    "lon": 20.488,
-    "type": "marina",
-    "arrival": "2027-04-01",
-    "departure": "2027-04-03",
+    "lat": 38.18,
+    "lon": 20.49,
+    "type": "anchorage",
+    "arrival": "2027-03-31",
+    "departure": "2027-04-02",
     "duration": "2 days",
-    "distanceToNext": 75,
+    "distanceToNext": 55,
     "phase": "Greece",
-    "schengen": true,
-    "marinaName": "Marina NOA Argostoli",
+    "marinaName": "Argostoli Marina",
     "marinaUrl": "https://www.cruiserswiki.org/wiki/Argostoli",
     "cultureHighlight": "Kefalonia capital & lighthouse",
     "cultureUrl": "https://en.wikipedia.org/wiki/Argostoli",
-    "notes": "Largest Ionian island",
+    "notes": "Anchorage in Argostoli Bay; good holding, dinghy to Kefalonia capital, sea turtles",
     "wikiUrl": "https://en.wikipedia.org/wiki/Argostoli",
-    "foodUrl": "https://www.visitgreece.gr/islands/ionian/kefalonia/",
+    "foodUrl": "https://www.greeka.com/ionian/kefalonia/eat-drink/",
     "adventureUrl": "https://www.kefalonia-island.com/",
-    "provisionsUrl": "https://www.navily.com/port/argostoli/914",
-    "season": "winter"
+    "provisionsUrl": "https://www.greeka.com/ionian/kefalonia/",
+    "season": "winter",
+    "routeWaypoints": [
+      [
+        38.09894032013823,
+        20.1996278785322
+      ],
+      [
+        38.12668928086533,
+        20.18882807281331
+      ],
+      [
+        38.16368789516813,
+        20.17442833185478
+      ],
+      [
+        38.200686509470934,
+        20.160028590896253
+      ],
+      [
+        38.22843547019803,
+        20.14922878517736
+      ],
+      [
+        38.364993071514,
+        20.418001295207365
+      ],
+      [
+        38.67968468619242,
+        20.44665003254591
+      ],
+      [
+        38.41000277597875,
+        20.61134134926755
+      ],
+      [
+        38.56265770131196,
+        20.612991734528855
+      ]
+    ]
   },
   {
-    "id": 85,
-    "name": "Lefkada",
+    "id": 95,
+    "name": "Sivota (Lefkada)",
     "country": "Greece",
-    "lat": 38.83,
-    "lon": 20.7128,
-    "type": "marina",
-    "arrival": "2027-04-03",
-    "departure": "2027-04-07",
+    "lat": 38.63,
+    "lon": 20.75,
+    "type": "anchorage",
+    "arrival": "2027-04-02",
+    "departure": "2027-04-06",
     "duration": "4 days",
-    "distanceToNext": 61,
+    "distanceToNext": 80,
     "phase": "Greece",
-    "schengen": true,
-    "marinaName": "D-Marin Lefkas",
-    "marinaUrl": "https://www.d-marin.com/en/marinas/lefkas/",
-    "cultureHighlight": "Agia Mavra Castle",
+    "marinaName": "Sivota Bay",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Sivotas",
+    "cultureHighlight": "Agia Mavra Castle & Sivota village",
     "cultureUrl": "https://en.wikipedia.org/wiki/Lefkada",
-    "notes": "Return through Ionian",
+    "notes": "Very protected anchorage at Sivota; charming village, tavernas, walk to provisions",
     "wikiUrl": "https://en.wikipedia.org/wiki/Lefkada",
-    "foodUrl": "https://www.visitgreece.gr/islands/ionian/lefkada/",
-    "adventureUrl": "https://www.visitgreece.gr/islands/ionian/lefkada/",
-    "provisionsUrl": "https://lefkasmarina.com/",
-    "season": "winter"
+    "foodUrl": "https://www.greeka.com/ionian/lefkada/eat-drink/",
+    "adventureUrl": "https://www.greeka.com/ionian/lefkada/things-to-do/",
+    "provisionsUrl": "https://www.greeka.com/ionian/lefkada/",
+    "season": "winter",
+    "routeWaypoints": [
+      [
+        38.95889698848287,
+        20.70559297953139
+      ]
+    ]
   },
   {
-    "id": 86,
-    "name": "Paxos",
+    "id": 96,
+    "name": "Gaios (Paxos)",
     "country": "Greece",
-    "lat": 39.2038,
-    "lon": 20.1903,
-    "type": "marina",
-    "arrival": "2027-04-07",
-    "departure": "2027-04-10",
+    "lat": 39.2,
+    "lon": 20.185,
+    "type": "anchorage",
+    "arrival": "2027-04-06",
+    "departure": "2027-04-09",
     "duration": "3 days",
     "distanceToNext": 52,
     "phase": "Greece",
-    "schengen": true,
     "marinaName": "Port Gaios",
     "marinaUrl": "https://www.cruiserswiki.org/wiki/Port_Gaios",
     "cultureHighlight": "Blue Caves & intimate harbor",
     "cultureUrl": "https://en.wikipedia.org/wiki/Paxos",
-    "notes": "Small picturesque island",
+    "notes": "Anchorage between islets at Gaios; stunning setting, dinghy to charming village & Blue Caves",
     "wikiUrl": "https://en.wikipedia.org/wiki/Paxos",
-    "foodUrl": "https://www.visitgreece.gr/islands/ionian/paxoi/",
-    "adventureUrl": "https://www.visitgreece.gr/islands/ionian/paxoi/",
-    "provisionsUrl": "https://www.navily.com/port/gaios/913",
-    "season": "winter"
+    "foodUrl": "https://www.greeka.com/ionian/paxi/eat-drink/restaurants/",
+    "adventureUrl": "https://www.greeka.com/ionian/paxi/",
+    "provisionsUrl": "https://www.greeka.com/ionian/paxi/",
+    "season": "winter",
+    "routeWaypoints": [
+      [
+        39.438513905748756,
+        20.095834638090384
+      ]
+    ]
   },
   {
-    "id": 87,
+    "id": 97,
     "name": "Corfu",
     "country": "Greece",
     "lat": 39.6243,
     "lon": 19.9217,
     "type": "marina",
-    "arrival": "2027-04-10",
-    "departure": "2027-04-14",
+    "arrival": "2027-04-09",
+    "departure": "2027-04-13",
     "duration": "4 days",
     "distanceToNext": 50,
     "phase": "Greece",
-    "schengen": true,
-    "marinaName": "Corfu Marina",
-    "marinaUrl": "https://www.navily.com/port/gouvia-marina/14412",
+    "marinaName": "Corfu Marina (Gouvia)",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Corfu",
     "cultureHighlight": "Corfu Old Town (UNESCO)",
     "cultureUrl": "https://whc.unesco.org/en/list/978/",
     "notes": "Last Greece stop - prepare for Italy crossing",
     "wikiUrl": "https://whc.unesco.org/en/list/978/",
-    "foodUrl": "https://www.visitgreece.gr/islands/ionian/corfu/",
+    "foodUrl": "https://www.greeka.com/ionian/corfu/eat-drink/",
     "adventureUrl": "https://thecorfutrail.com/",
     "provisionsUrl": "https://www.d-marin.com/en/marinas/greece/gouvia",
-    "season": "winter"
+    "season": "winter",
+    "routeWaypoints": [
+      [
+        39.83758581825929,
+        19.981032133283442
+      ],
+      [
+        39.812778698308605,
+        19.70439209567093
+      ]
+    ]
   },
   {
-    "id": 88,
+    "id": 98,
     "name": "Othoni",
     "country": "Greece",
     "lat": 39.856,
     "lon": 19.42,
     "type": "anchorage",
-    "arrival": "2027-04-14",
-    "departure": "2027-04-17",
+    "arrival": "2027-04-13",
+    "departure": "2027-04-16",
     "duration": "3 days",
     "distanceToNext": 91,
     "phase": "Greece",
-    "schengen": true,
-    "marinaUrl": "https://www.cruiserswiki.org/wiki/Othoni",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Cruising_the_Greek_Ionian_Sea",
     "cultureHighlight": "Remote Greek island - Calypso legend",
     "cultureUrl": "https://en.wikipedia.org/wiki/Othoni",
     "notes": "Northwesternmost Greek island",
     "wikiUrl": "https://en.wikipedia.org/wiki/Othoni",
-    "foodUrl": "https://www.visitgreece.gr/islands/ionian/corfu/",
-    "adventureUrl": "https://www.visitgreece.gr/islands/ionian/corfu/",
+    "foodUrl": "https://www.greeka.com/ionian/corfu/eat-drink/",
+    "adventureUrl": "https://www.greeka.com/ionian/corfu/things-to-do/",
     "provisionsUrl": "https://www.navily.com/mouillage/othoni/45394",
-    "season": "winter"
+    "season": "winter",
+    "marinaName": "Ormos Fyki (Fyki Bay)"
   },
   {
-    "id": 89,
+    "id": 99,
     "name": "Santa Maria di Leuca",
     "country": "Italy",
     "lat": 39.7963,
     "lon": 18.3616,
     "type": "marina",
-    "arrival": "2027-04-17",
-    "departure": "2027-04-18",
+    "arrival": "2027-04-16",
+    "departure": "2027-04-17",
     "duration": "1 day",
     "distanceToNext": 43,
     "phase": "Italy",
-    "schengen": true,
-    "marinaUrl": "https://www.cruiserswiki.org/wiki/Santa_Maria_de_Leuca",
+    "marinaUrl": "https://en.wikipedia.org/wiki/Santa_Maria_di_Leuca",
     "cultureHighlight": "Basilica De Finibus Terrae & Lighthouse",
     "cultureUrl": "https://en.wikipedia.org/wiki/Santa_Maria_di_Leuca",
     "notes": "Italy landfall - heel of boot",
@@ -2101,45 +3005,65 @@
     "foodUrl": "https://www.italia.it/en/puglia/things-to-do/santa-maria-di-leuca",
     "adventureUrl": "https://www.italia.it/en/puglia/things-to-do/santa-maria-di-leuca",
     "provisionsUrl": "https://interregaismart.regione.puglia.it/en/-/santa-maria-di-leuca",
-    "season": "winter"
+    "season": "winter",
+    "routeWaypoints": [
+      [
+        39.72426903727302,
+        18.03111913382372
+      ]
+    ],
+    "marinaName": "Santa Maria di Leuca Harbour"
   },
   {
-    "id": 90,
+    "id": 100,
     "name": "Gallipoli",
     "country": "Italy",
-    "lat": 40.0559,
-    "lon": 17.9926,
-    "type": "marina",
-    "arrival": "2027-04-18",
-    "departure": "2027-04-19",
+    "lat": 40.06,
+    "lon": 17.99,
+    "type": "anchorage",
+    "arrival": "2027-04-17",
+    "departure": "2027-04-18",
     "duration": "1 day",
     "distanceToNext": 80,
     "phase": "Italy",
-    "schengen": true,
+    "marinaName": "Porto Gaio Marina",
     "marinaUrl": "https://www.cruiserswiki.org/wiki/Gallipoli",
     "cultureHighlight": "Baroque Old Town on island",
     "cultureUrl": "https://en.wikipedia.org/wiki/Gallipoli,_Apulia",
-    "notes": "Beautiful walled island town",
+    "notes": "Anchorage off Gallipoli; protected bay, dinghy to stunning Baroque island old town",
     "wikiUrl": "https://en.wikipedia.org/wiki/Gallipoli,_Apulia",
     "foodUrl": "https://viaggiareinpuglia.it/en/places-of-interest/gallipoli-5",
     "adventureUrl": "https://viaggiareinpuglia.it/en/places-of-interest/gallipoli-5",
-    "provisionsUrl": "https://www.navily.com/port/gallipoli/921",
-    "season": "winter"
+    "provisionsUrl": "https://viaggiareinpuglia.it/en/places-of-interest/gallipoli-5",
+    "season": "winter",
+    "routeWaypoints": [
+      [
+        40.260576612788924,
+        17.60245128383373
+      ],
+      [
+        40.32633272593133,
+        17.388483109017
+      ],
+      [
+        40.21937215409845,
+        17.13632046777987
+      ]
+    ]
   },
   {
-    "id": 91,
+    "id": 101,
     "name": "Taranto",
     "country": "Italy",
     "lat": 40.4787,
     "lon": 17.2245,
     "type": "marina",
-    "arrival": "2027-04-19",
-    "departure": "2027-04-20",
+    "arrival": "2027-04-18",
+    "departure": "2027-04-19",
     "duration": "1 day",
     "distanceToNext": 57,
     "phase": "Italy",
-    "schengen": true,
-    "marinaUrl": "https://www.cruiserswiki.org/wiki/Taranto",
+    "marinaUrl": "https://en.wikipedia.org/wiki/Taranto",
     "cultureHighlight": "Aragonese Castle & MARTA Museum",
     "cultureUrl": "https://en.wikipedia.org/wiki/Castello_Aragonese_(Taranto)",
     "notes": "Ancient Greek colony",
@@ -2147,21 +3071,27 @@
     "foodUrl": "https://www.italia.it/en/puglia/taranto",
     "adventureUrl": "https://www.italia.it/en/puglia/taranto",
     "provisionsUrl": "https://www.navily.com/port/taranto/1042",
-    "season": "winter"
+    "season": "winter",
+    "marinaName": "Porto Mercantile Taranto",
+    "routeWaypoints": [
+      [
+        40.11571113703598,
+        17.057339245442943
+      ]
+    ]
   },
   {
-    "id": 92,
+    "id": 102,
     "name": "Policoro",
     "country": "Italy",
     "lat": 40.2,
     "lon": 16.6667,
     "type": "marina",
-    "arrival": "2027-04-20",
-    "departure": "2027-04-21",
+    "arrival": "2027-04-19",
+    "departure": "2027-04-20",
     "duration": "1 day",
     "distanceToNext": 54,
     "phase": "Italy",
-    "schengen": true,
     "marinaName": "Marina di Policoro",
     "marinaUrl": "https://marinedi.com/en/marina-di-policoro/",
     "cultureHighlight": "Heraclea archaeological site",
@@ -2171,23 +3101,28 @@
     "foodUrl": "https://www.italia.it/en/basilicata/policoro",
     "adventureUrl": "https://www.italia.it/en/basilicata/policoro",
     "provisionsUrl": "https://www.navily.com/port/policoro/1041",
-    "season": "winter"
+    "season": "winter",
+    "routeWaypoints": [
+      [
+        39.77758752360694,
+        16.823036538891188
+      ]
+    ]
   },
   {
-    "id": 93,
+    "id": 103,
     "name": "Sibari",
     "country": "Italy",
     "lat": 39.7333,
     "lon": 16.4833,
     "type": "marina",
-    "arrival": "2027-04-21",
-    "departure": "2027-04-22",
+    "arrival": "2027-04-20",
+    "departure": "2027-04-21",
     "duration": "1 day",
     "distanceToNext": 22,
     "phase": "Italy",
-    "schengen": true,
     "marinaName": "Marina Laghi di Sibari",
-    "marinaUrl": "https://www.cruiserswiki.org/wiki/Sibari",
+    "marinaUrl": "https://en.wikipedia.org/wiki/Sibari",
     "cultureHighlight": "Ancient Sybaris archaeological site",
     "cultureUrl": "https://en.wikipedia.org/wiki/Sybaris",
     "notes": "Large marina complex in Gulf of Taranto",
@@ -2195,22 +3130,27 @@
     "foodUrl": "https://calabriastraordinaria.it/en/destinations/sibari",
     "adventureUrl": "https://calabriastraordinaria.it/en/places/archaeological-park-of-sibari",
     "provisionsUrl": "https://www.navily.com/port/sibari/1040",
-    "season": "winter"
+    "season": "winter",
+    "routeWaypoints": [
+      [
+        39.65,
+        16.7
+      ]
+    ]
   },
   {
-    "id": 94,
+    "id": 104,
     "name": "Rossano",
     "country": "Italy",
     "lat": 39.5764,
     "lon": 16.6347,
     "type": "anchorage",
-    "arrival": "2027-04-22",
-    "departure": "2027-04-24",
+    "arrival": "2027-04-21",
+    "departure": "2027-04-23",
     "duration": "2 days",
     "distanceToNext": 69,
     "phase": "Italy",
-    "schengen": true,
-    "marinaUrl": "https://www.cruiserswiki.org/wiki/Rossano",
+    "marinaUrl": "https://www.sea-seek.com/en/Porto-di-Corigliano-Calabro-Calabria-",
     "cultureHighlight": "Codex Purpureus Rossanensis (UNESCO Memory)",
     "cultureUrl": "https://en.wikipedia.org/wiki/Rossano",
     "notes": "Byzantine heritage town",
@@ -2218,22 +3158,32 @@
     "foodUrl": "https://www.italia.it/en/calabria",
     "adventureUrl": "https://www.italia.it/en/calabria",
     "provisionsUrl": "https://www.navily.com/port/porto-di-rossano/1023",
-    "season": "winter"
+    "season": "winter",
+    "marinaName": "Porto di Corigliano Calabro",
+    "routeWaypoints": [
+      [
+        39.5,
+        17.05
+      ],
+      [
+        39.25,
+        17.2
+      ]
+    ]
   },
   {
-    "id": 95,
+    "id": 105,
     "name": "Crotone",
     "country": "Italy",
     "lat": 39.0845,
     "lon": 17.1245,
     "type": "marina",
-    "arrival": "2027-04-24",
-    "departure": "2027-04-26",
+    "arrival": "2027-04-23",
+    "departure": "2027-04-25",
     "duration": "2 days",
     "distanceToNext": 21,
     "phase": "Italy",
-    "schengen": true,
-    "marinaUrl": "https://www.navily.com/port/marina-di-crotone/1540",
+    "marinaUrl": "https://en.wikipedia.org/wiki/Crotone",
     "cultureHighlight": "Archaeological Museum & Greek ruins",
     "cultureUrl": "https://en.wikipedia.org/wiki/Crotone",
     "notes": "Ancient Magna Graecia",
@@ -2241,44 +3191,64 @@
     "foodUrl": "https://www.italia.it/en/calabria",
     "adventureUrl": "https://www.italia.it/en/calabria",
     "provisionsUrl": "https://www.navily.com/port/crotone/1022",
-    "season": "winter"
+    "season": "winter",
+    "routeWaypoints": [
+      [
+        39.048043465272265,
+        17.25860938567321
+      ],
+      [
+        38.94912582997571,
+        17.160989164011212
+      ],
+      [
+        38.8835665949173,
+        17.105164501463594
+      ]
+    ],
+    "marinaName": "Marina di Crotone"
   },
   {
-    "id": 96,
+    "id": 106,
     "name": "Le Castella",
     "country": "Italy",
-    "lat": 38.911,
-    "lon": 17.0279,
-    "type": "marina",
-    "arrival": "2027-04-26",
-    "departure": "2027-04-28",
+    "lat": 38.915,
+    "lon": 17.025,
+    "type": "anchorage",
+    "arrival": "2027-04-25",
+    "departure": "2027-04-27",
     "duration": "2 days",
     "distanceToNext": 83,
     "phase": "Italy",
-    "schengen": true,
-    "marinaUrl": "https://www.sea-seek.com/en/Le-Castella-Calabria-",
+    "marinaName": "Marina Le Castella",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Le_Castella",
     "cultureHighlight": "Aragonese Castle in the sea",
     "cultureUrl": "https://en.wikipedia.org/wiki/Le_Castella",
-    "notes": "Iconic sea fortress",
+    "notes": "Iconic anchorage at Le Castella; stunning views of Aragonese sea fortress, swim to castle",
     "wikiUrl": "https://en.wikipedia.org/wiki/Le_Castella",
     "foodUrl": "https://www.italia.it/en/calabria",
     "adventureUrl": "https://www.italia.it/en/calabria",
-    "provisionsUrl": "https://www.navily.com/port/le-castella/1021",
-    "season": "winter"
+    "provisionsUrl": "https://www.italia.it/en/calabria",
+    "season": "winter",
+    "routeWaypoints": [
+      [
+        38.536309756625016,
+        16.814364717882796
+      ]
+    ]
   },
   {
-    "id": 97,
+    "id": 107,
     "name": "Roccella Ionica",
     "country": "Italy",
     "lat": 38.3278,
     "lon": 16.4345,
     "type": "marina",
-    "arrival": "2027-04-28",
-    "departure": "2027-04-30",
+    "arrival": "2027-04-27",
+    "departure": "2027-04-29",
     "duration": "2 days",
     "distanceToNext": 73,
     "phase": "Italy",
-    "schengen": true,
     "marinaName": "Porto delle Grazie",
     "marinaUrl": "https://portodellegrazie.com/en/",
     "cultureHighlight": "Historic Calabrian coastal town",
@@ -2287,24 +3257,37 @@
     "wikiUrl": "https://en.wikipedia.org/wiki/Roccella_Ionica",
     "foodUrl": "https://www.italia.it/en/calabria",
     "adventureUrl": "https://www.italia.it/en/calabria",
-    "provisionsUrl": "https://www.navily.com/port/roccella-ionica/1020",
-    "season": "winter"
+    "provisionsUrl": "https://www.navily.com/port/porto-delle-grazie-marina-di-roccella/858",
+    "season": "winter",
+    "routeWaypoints": [
+      [
+        38.1,
+        16.3
+      ],
+      [
+        37.85,
+        15.65
+      ],
+      [
+        37.95,
+        15.6
+      ]
+    ]
   },
   {
-    "id": 98,
+    "id": 108,
     "name": "Reggio Calabria",
     "country": "Italy",
     "lat": 38.1147,
     "lon": 15.6475,
     "type": "marina",
-    "arrival": "2027-04-30",
-    "departure": "2027-05-03",
+    "arrival": "2027-04-29",
+    "departure": "2027-05-02",
     "duration": "3 days",
     "distanceToNext": 46,
     "phase": "Italy",
-    "schengen": true,
-    "marinaName": "",
-    "marinaUrl": "https://www.cruiserswiki.org/wiki/Reggio_di_Calabria",
+    "marinaName": "Porto di Reggio Calabria",
+    "marinaUrl": "https://en.wikipedia.org/wiki/Reggio_Calabria",
     "cultureHighlight": "Riace Bronzes at National Museum",
     "cultureUrl": "https://en.wikipedia.org/wiki/Riace_bronzes",
     "notes": "Strait of Messina, famous Greek bronzes",
@@ -2315,66 +3298,75 @@
     "season": "winter"
   },
   {
-    "id": 99,
+    "id": 109,
     "name": "Giardini Naxos",
     "country": "Italy",
     "lat": 37.8253,
     "lon": 15.2668,
     "type": "anchorage",
-    "arrival": "2027-05-03",
-    "departure": "2027-05-05",
+    "arrival": "2027-05-02",
+    "departure": "2027-05-04",
     "duration": "2 days",
     "distanceToNext": 85,
     "phase": "Italy",
-    "schengen": true,
-    "marinaUrl": "https://www.ey4u.com/east-sicily-yacht-services/taormina-yacht-services-yacht-agents-and-anchorages-in-giardini-naxos-marina/",
+    "marinaUrl": "https://www.cruiserswiki.org/wiki/Taormina",
     "cultureHighlight": "Ancient Theatre of Taormina",
     "cultureUrl": "https://en.wikipedia.org/wiki/Ancient_theatre_of_Taormina",
     "notes": "Visit Taormina & Mt Etna",
     "wikiUrl": "https://en.wikipedia.org/wiki/Ancient_theatre_of_Taormina",
     "foodUrl": "https://www.italia.it/en/sicily/things-to-do/giardini-naxos-nightlife",
     "adventureUrl": "https://www.sicilyactive.com/en/giardini-naxos-sicily",
-    "provisionsUrl": "https://www.navily.com/port/giardini-naxos/1018",
-    "season": "winter"
+    "provisionsUrl": "https://www.navily.com/port/marina-yachting-gsg-giardini-naxos-taormina/2124",
+    "season": "winter",
+    "marinaName": "Marina Yachting Giardini Naxos"
   },
   {
-    "id": 100,
+    "id": 110,
     "name": "Syracuse",
     "country": "Italy",
     "lat": 37.06,
     "lon": 15.2906,
     "type": "marina",
-    "arrival": "2027-05-05",
-    "departure": "2027-05-08",
+    "arrival": "2027-05-04",
+    "departure": "2027-05-07",
     "duration": "3 days",
     "distanceToNext": 73,
     "phase": "Italy",
-    "schengen": true,
-    "marinaUrl": "https://www.navily.com/de/port/marina-yatching-siracusa-ortigia/205",
+    "marinaUrl": "https://en.wikipedia.org/wiki/Syracuse,_Sicily",
     "cultureHighlight": "Syracuse & Ortygia (UNESCO)",
     "cultureUrl": "https://whc.unesco.org/en/list/1200/",
     "notes": "UNESCO baroque town",
     "wikiUrl": "https://whc.unesco.org/en/list/1200/",
     "foodUrl": "https://www.italia.it/en/sicily/syracuse",
     "adventureUrl": "https://ilovesiracusa.com/where-to-eat-in-siracusa",
-    "provisionsUrl": "https://www.navily.com/port/siracusa-marina/1017",
-    "season": "winter"
+    "provisionsUrl": "https://www.navily.com/port/marina-yachting-siracusa-ortigia/205",
+    "season": "winter",
+    "marinaName": "Marina Yachting Siracusa",
+    "routeWaypoints": [
+      [
+        36.85,
+        15.25
+      ],
+      [
+        36.7,
+        14.9
+      ]
+    ]
   },
   {
-    "id": 101,
+    "id": 111,
     "name": "Marina di Ragusa",
     "country": "Italy",
     "lat": 36.7855,
     "lon": 14.5472,
     "type": "marina",
-    "arrival": "2027-05-08",
-    "departure": "2027-05-10",
+    "arrival": "2027-05-07",
+    "departure": "2027-05-09",
     "duration": "2 days",
     "distanceToNext": 0,
     "phase": "Italy",
-    "schengen": true,
     "marinaName": "Marina di Ragusa",
-    "marinaUrl": "https://www.navily.com/port/marina-di-ragusa/932",
+    "marinaUrl": "https://en.wikipedia.org/wiki/Marina_di_Ragusa",
     "cultureHighlight": "Baroque towns of Val di Noto",
     "cultureUrl": "https://en.wikipedia.org/wiki/Marina_di_Ragusa",
     "notes": "Final stop - end of journey",

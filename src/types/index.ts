@@ -10,7 +10,6 @@ export interface Stop {
   duration: string;
   distanceToNext: number;
   phase: string;
-  schengen: boolean;
   season: string;
   marinaName?: string;
   marinaUrl?: string;
@@ -21,6 +20,14 @@ export interface Stop {
   foodUrl?: string;
   adventureUrl?: string;
   provisionsUrl?: string;
+  routeWaypoints?: [number, number][];
+}
+
+// Schengen countries on the route
+const SCHENGEN_COUNTRIES = new Set(['Croatia', 'Greece', 'Italy']);
+
+export function isSchengen(country: string): boolean {
+  return SCHENGEN_COUNTRIES.has(country);
 }
 
 export interface Phase {

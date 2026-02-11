@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { ArrowLeft, MapPin, Calendar, Anchor, ExternalLink, Image, BookOpen, Info, Share2 } from 'lucide-react';
+import { isSchengen } from '../types';
 import type { Stop } from '../types';
 import { useAuth } from '../context/AuthContext';
 import { PhotoGallery } from './PhotoGallery';
@@ -224,7 +225,7 @@ export function StopDetail({ stop, onBack }: StopDetailProps) {
                 </div>
                 <div>
                   <span className="text-slate-500">Schengen</span>
-                  <p className="text-slate-300">{stop.schengen ? 'Yes' : 'No'}</p>
+                  <p className="text-slate-300">{isSchengen(stop.country) ? 'Yes' : 'No'}</p>
                 </div>
                 <div>
                   <span className="text-slate-500">Coordinates</span>

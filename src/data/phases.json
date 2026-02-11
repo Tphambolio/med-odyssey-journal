@@ -10,16 +10,16 @@
   {
     "id": "country-2",
     "name": "Montenegro",
-    "stops": 6,
-    "days": 12,
+    "stops": 12,
+    "days": 30,
     "schengen": false,
     "color": "#a855f7"
   },
   {
     "id": "country-3",
     "name": "Albania",
-    "stops": 5,
-    "days": 10,
+    "stops": 10,
+    "days": 22,
     "schengen": false,
     "color": "#f97316"
   },
@@ -41,26 +41,18 @@
   },
   {
     "id": "country-6",
-    "name": "Northern Cyprus",
-    "stops": 1,
-    "days": 5,
+    "name": "Cyprus",
+    "stops": 5,
+    "days": 89,
     "schengen": false,
     "color": "#fbbf24"
   },
   {
     "id": "country-7",
-    "name": "Cyprus",
-    "stops": 5,
-    "days": 86,
-    "schengen": false,
-    "color": "#fbbf24"
-  },
-  {
-    "id": "country-8",
     "name": "Italy",
     "stops": 13,
     "days": 23,
     "schengen": true,
-    "color": "#22c55e"
+    "color": "#14b8a6"
   }
 ]

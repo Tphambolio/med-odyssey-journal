@@ -9,13 +9,13 @@ import { StopDetail } from './components/StopDetail';
 import { BlogHub } from './components/blog/BlogHub';
 import { PublicJournalPage } from './components/blog/PublicJournalPage';
 import { MapPage } from './pages/MapPage';
-import type { Stop, Phase } from './types';
+import { AuthCallback } from './pages/AuthCallback';
+import { useJournalCounts } from './hooks/useJournalCounts';
+import type { Stop } from './types';
 import stopsData from './data/stops.json';
-import phasesData from './data/phases.json';
 import './index.css';
 
 const stops = stopsData as Stop[];
-const phases = phasesData as Phase[];
 
 function AppContent() {
   const [selectedStop, setSelectedStop] = useState<Stop | null>(null);
@@ -23,6 +23,11 @@ function AppContent() {
   const [searchQuery, setSearchQuery] = useState('');
   const [countryFilter, setCountryFilter] = useState<string>('all');
   const [showFilters, setShowFilters] = useState(false);
+  const { getJournalCount, getPhotoCount } = useJournalCounts();
+
+  const totalDays = useMemo(() => {
+    return stops.reduce((sum, s) => sum + (parseInt(s.duration) || 0), 0);
+  }, []);
 
   const countries = useMemo(() => {
     const unique = [...new Set(stops.map((s) => s.country))];
@@ -43,10 +48,6 @@ function AppContent() {
     });
   }, [searchQuery, countryFilter]);
 
-  // Mock counts - in real app these would come from Supabase
-  const getJournalCount = () => 0;
-  const getPhotoCount = () => 0;
-
   if (selectedStop) {
     return (
       <StopDetail stop={selectedStop} onBack={() => setSelectedStop(null)} />
@@ -64,7 +65,7 @@ function AppContent() {
             Mediterranean Odyssey 2026-2027
           </h2>
           <p className="text-slate-400">
-            {stops.length} stops across {phases.length} countries • 299 days of adventure
+            {stops.length} stops across {countries.length} countries • {totalDays} days of adventure
           </p>
         </div>
 
@@ -135,7 +136,7 @@ function AppContent() {
               <Calendar className="w-4 h-4" />
               <span className="text-xs">Days</span>
             </div>
-            <p className="text-2xl font-bold text-white">299</p>
+            <p className="text-2xl font-bold text-white">{totalDays}</p>
           </div>
           <div className="bg-slate-800 rounded-xl p-4 border border-slate-700 col-span-2">
             <div className="text-slate-400 text-xs mb-1">Route</div>
@@ -155,8 +156,8 @@ function AppContent() {
             <StopCard
               key={stop.id}
               stop={stop}
-              journalCount={getJournalCount()}
-              photoCount={getPhotoCount()}
+              journalCount={getJournalCount(stop.id)}
+              photoCount={getPhotoCount(stop.id)}
               onClick={() => setSelectedStop(stop)}
             />
           ))}
@@ -177,6 +178,7 @@ function App() {
           <Route path="/blog" element={<BlogHub />} />
           <Route path="/blog/:stopSlug/:journalId" element={<PublicJournalPage />} />
           <Route path="/map" element={<MapPage />} />
+          <Route path="/auth/callback" element={<AuthCallback />} />
 
           {/* Private app routes */}
           <Route path="/*" element={<AppContent />} />
