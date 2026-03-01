@@ -17,7 +17,7 @@ export function Header({ onAuthClick }: HeaderProps) {
             <Sailboat className="w-8 h-8 text-cyan-400" />
             <div>
               <h1 className="text-xl font-bold text-white">Med Odyssey Journal</h1>
-              <p className="text-xs text-slate-400 hidden sm:block">Your Mediterranean sailing companion</p>
+              <p className="text-xs text-slate-400 hidden sm:block">Explore the route, read the stories</p>
             </div>
           </Link>
         </div>
@@ -32,7 +32,7 @@ export function Header({ onAuthClick }: HeaderProps) {
             <span className="hidden sm:inline">Blog</span>
           </Link>
           <Link
-            to="/map"
+            to="/"
             className="flex items-center gap-2 px-3 py-2 text-sm text-slate-300 hover:text-white hover:bg-slate-700 rounded-lg transition-colors"
           >
             <Map className="w-4 h-4" />

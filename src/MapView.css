@@ -1,0 +1,137 @@
+/* Map-specific styles - supplementary to main index.css */
+
+/* Dark theme CSS variables */
+:root {
+  --color-bg-primary: #0f172a;
+  --color-bg-secondary: #1e293b;
+  --color-bg-tertiary: #334155;
+  --color-text-primary: #f1f5f9;
+  --color-text-secondary: #94a3b8;
+  --color-accent: #06b6d4;
+}
+
+/* Custom scrollbar for dark theme */
+.map-view ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.map-view ::-webkit-scrollbar-track {
+  background: #1e293b;
+}
+
+.map-view ::-webkit-scrollbar-thumb {
+  background: #475569;
+  border-radius: 9999px;
+}
+
+.map-view ::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Leaflet map overrides for dark theme */
+.leaflet-container {
+  background: #0f172a;
+}
+
+.leaflet-control-zoom a {
+  background: #1e293b !important;
+  color: #f1f5f9 !important;
+  border-color: #334155 !important;
+}
+
+.leaflet-control-zoom a:hover {
+  background: #334155 !important;
+}
+
+.leaflet-popup-content-wrapper {
+  background: #1e293b;
+  color: #f1f5f9;
+  border-radius: 0.5rem;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  padding: 0 !important;
+}
+
+.leaflet-popup-content {
+  margin: 8px 10px !important;
+}
+
+.leaflet-popup-tip {
+  background: #1e293b;
+}
+
+/* Compact popup variant */
+.compact-popup .leaflet-popup-content-wrapper {
+  border-radius: 0.5rem;
+}
+
+/* Custom marker styles */
+.custom-marker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  border-width: 2px;
+  font-weight: 700;
+  font-size: 0.875rem;
+  width: 32px;
+  height: 32px;
+}
+
+.marker-marina {
+  background-color: #3b82f6;
+  border-color: #60a5fa;
+  color: white;
+}
+
+.marker-anchorage {
+  background-color: #f97316;
+  border-color: #fb923c;
+  color: white;
+}
+
+/* Glow effects for hover states */
+.glow-cyan {
+  box-shadow: 0 0 20px rgba(6, 182, 212, 0.5);
+}
+
+.glow-blue {
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
+}
+
+/* Animation utilities */
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.3s ease-out;
+}
+
+@keyframes slide-up {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+
+.animate-slide-up {
+  animation: slide-up 0.3s ease-out;
+}
+
+@keyframes slide-left {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+.animate-slide-left {
+  animation: slide-left 0.3s ease-out;
+}
+
+/* Distance measure cursor */
+.leaflet-container.cursor-crosshair {
+  cursor: crosshair !important;
+}
+
+.leaflet-container.cursor-crosshair .leaflet-marker-icon {
+  cursor: crosshair !important;
+}
