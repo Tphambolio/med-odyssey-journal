@@ -289,6 +289,14 @@ export function BlogHub() {
         )}
       </main>
 
+      <footer className="border-t border-slate-800 py-6 mt-8">
+        <div className="flex items-center justify-center gap-4 text-xs text-slate-500">
+          <Link to="/privacy" className="hover:text-slate-300 transition-colors">Privacy Policy</Link>
+          <span>·</span>
+          <Link to="/terms" className="hover:text-slate-300 transition-colors">Terms of Service</Link>
+        </div>
+      </footer>
+
       <AuthModal isOpen={authModalOpen} onClose={() => setAuthModalOpen(false)} />
     </div>
   );

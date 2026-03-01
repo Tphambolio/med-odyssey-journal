@@ -1,10 +1,12 @@
-import { BrowserRouter, Routes, Route, useNavigate, useParams } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useNavigate, useParams, Link } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
 import { MapView } from './components/map';
 import { StopDetail } from './components/StopDetail';
 import { BlogHub } from './components/blog/BlogHub';
 import { PublicJournalPage } from './components/blog/PublicJournalPage';
 import { AuthCallback } from './pages/AuthCallback';
+import { PrivacyPolicy } from './pages/PrivacyPolicy';
+import { TermsOfService } from './pages/TermsOfService';
 import type { Stop } from './types';
 import stopsData from './data/stops.json';
 import './index.css';
@@ -18,7 +20,20 @@ function HomePage() {
     navigate(`/stop/${stop.id}`);
   };
 
-  return <MapView onStopSelect={handleStopSelect} />;
+  return (
+    <div className="relative min-h-screen flex flex-col">
+      <div className="flex-1">
+        <MapView onStopSelect={handleStopSelect} />
+      </div>
+      <footer className="bg-slate-900/80 backdrop-blur-sm border-t border-slate-800 py-3 px-4 text-center z-[1000]">
+        <div className="flex items-center justify-center gap-4 text-xs text-slate-500">
+          <Link to="/privacy" className="hover:text-slate-300 transition-colors">Privacy Policy</Link>
+          <span>·</span>
+          <Link to="/terms" className="hover:text-slate-300 transition-colors">Terms of Service</Link>
+        </div>
+      </footer>
+    </div>
+  );
 }
 
 function StopPage() {
@@ -62,6 +77,10 @@ function App() {
 
           {/* Auth callback */}
           <Route path="/auth/callback" element={<AuthCallback />} />
+
+          {/* Legal pages */}
+          <Route path="/privacy" element={<PrivacyPolicy />} />
+          <Route path="/terms" element={<TermsOfService />} />
         </Routes>
       </AuthProvider>
     </BrowserRouter>
