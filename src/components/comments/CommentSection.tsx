@@ -141,9 +141,24 @@ export function CommentSection({ journalId, onAuthRequired }: CommentSectionProp
     });
   };
 
+  // Generate a consistent color from a string (for avatar fallback)
+  function getAvatarColor(name: string): string {
+    const colors = [
+      'bg-cyan-600', 'bg-blue-600', 'bg-indigo-600', 'bg-purple-600',
+      'bg-pink-600', 'bg-rose-600', 'bg-amber-600', 'bg-emerald-600',
+      'bg-teal-600', 'bg-sky-600',
+    ];
+    let hash = 0;
+    for (let i = 0; i < name.length; i++) {
+      hash = name.charCodeAt(i) + ((hash << 5) - hash);
+    }
+    return colors[Math.abs(hash) % colors.length];
+  }
+
   function CommentItem({ comment, depth = 0 }: { comment: CommentWithProfile; depth?: number }) {
     const isOwner = user?.id === comment.user_id;
     const displayName = comment.user_profile?.display_name || 'Anonymous';
+    const avatarUrl = comment.user_profile?.avatar_url;
 
     return (
       <div className={`${depth > 0 ? 'ml-8 mt-3' : ''}`}>
@@ -151,9 +166,19 @@ export function CommentSection({ journalId, onAuthRequired }: CommentSectionProp
           {/* Header */}
           <div className="flex items-center justify-between mb-2">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-full bg-slate-700 flex items-center justify-center">
-                <User className="w-4 h-4 text-slate-400" />
-              </div>
+              {avatarUrl ? (
+                <img
+                  src={avatarUrl}
+                  alt={displayName}
+                  className="w-8 h-8 rounded-full object-cover"
+                />
+              ) : (
+                <div className={`w-8 h-8 rounded-full ${getAvatarColor(displayName)} flex items-center justify-center`}>
+                  <span className="text-sm font-medium text-white">
+                    {displayName.charAt(0).toUpperCase()}
+                  </span>
+                </div>
+              )}
               <div>
                 <span className="text-sm font-medium text-white">{displayName}</span>
                 <span className="text-xs text-slate-500 ml-2">

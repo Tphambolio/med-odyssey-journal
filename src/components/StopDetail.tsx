@@ -1,10 +1,25 @@
 import { useState } from 'react';
-import { ArrowLeft, MapPin, Calendar, Anchor, ExternalLink, Image, BookOpen, Info, Share2 } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { ArrowLeft, MapPin, Calendar, Anchor, ExternalLink, Image, BookOpen, Info, Share2, Map } from 'lucide-react';
+import { MapContainer, TileLayer, Marker } from 'react-leaflet';
+import L from 'leaflet';
+import 'leaflet/dist/leaflet.css';
 import { isSchengen } from '../types';
 import type { Stop } from '../types';
-import { useAuth } from '../context/AuthContext';
+import { useAdmin } from '../hooks/useAdmin';
 import { PhotoGallery } from './PhotoGallery';
 import { JournalEditor } from './JournalEditor';
+
+// Fix Leaflet default marker icon for the preview map
+import iconUrl from 'leaflet/dist/images/marker-icon.png';
+import iconShadow from 'leaflet/dist/images/marker-shadow.png';
+
+const stopMarkerIcon = L.icon({
+  iconUrl,
+  shadowUrl: iconShadow,
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+});
 
 interface StopDetailProps {
   stop: Stop;
@@ -25,7 +40,7 @@ const countryFlags: Record<string, string> = {
 type Tab = 'photos' | 'journal' | 'info';
 
 export function StopDetail({ stop, onBack }: StopDetailProps) {
-  const { user } = useAuth();
+  const { isAdmin } = useAdmin();
   const [activeTab, setActiveTab] = useState<Tab>('photos');
   const flag = countryFlags[stop.country] || '🏳️';
 
@@ -43,13 +58,22 @@ export function StopDetail({ stop, onBack }: StopDetailProps) {
       {/* Header */}
       <div className="bg-slate-800 border-b border-slate-700">
         <div className="max-w-4xl mx-auto px-4 py-4">
-          <button
-            onClick={onBack}
-            className="flex items-center gap-2 text-slate-400 hover:text-white transition-colors mb-4"
-          >
-            <ArrowLeft className="w-5 h-5" />
-            <span>Back to stops</span>
-          </button>
+          <div className="flex items-center gap-4 mb-4">
+            <button
+              onClick={onBack}
+              className="flex items-center gap-2 text-slate-400 hover:text-white transition-colors"
+            >
+              <ArrowLeft className="w-5 h-5" />
+              <span>Back to stops</span>
+            </button>
+            <Link
+              to="/"
+              className="flex items-center gap-2 text-slate-400 hover:text-cyan-400 transition-colors"
+            >
+              <Map className="w-5 h-5" />
+              <span>Back to Map</span>
+            </Link>
+          </div>
 
           <div className="flex items-start justify-between gap-4">
             <div>
@@ -123,11 +147,11 @@ export function StopDetail({ stop, onBack }: StopDetailProps) {
       {/* Content */}
       <div className="max-w-4xl mx-auto px-4 py-6">
         {activeTab === 'photos' && (
-          <PhotoGallery stopId={stop.id} isLoggedIn={!!user} />
+          <PhotoGallery stopId={stop.id} isLoggedIn={isAdmin} />
         )}
 
         {activeTab === 'journal' && (
-          <JournalEditor stopId={stop.id} isLoggedIn={!!user} />
+          <JournalEditor stopId={stop.id} isLoggedIn={isAdmin} />
         )}
 
         {activeTab === 'info' && (
@@ -235,6 +259,27 @@ export function StopDetail({ stop, onBack }: StopDetailProps) {
                   <span className="text-slate-500">Season</span>
                   <p className="text-slate-300 capitalize">{stop.season}</p>
                 </div>
+              </div>
+            </div>
+
+            {/* Location Map Preview */}
+            <div className="bg-slate-800 rounded-xl p-4 border border-slate-700">
+              <h3 className="font-medium text-white mb-3">Location</h3>
+              <div className="rounded-lg overflow-hidden border border-slate-600" style={{ height: '200px' }}>
+                <MapContainer
+                  center={[stop.lat, stop.lon]}
+                  zoom={12}
+                  scrollWheelZoom={false}
+                  dragging={false}
+                  zoomControl={false}
+                  attributionControl={false}
+                  style={{ height: '100%', width: '100%' }}
+                >
+                  <TileLayer
+                    url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+                  />
+                  <Marker position={[stop.lat, stop.lon]} icon={stopMarkerIcon} />
+                </MapContainer>
               </div>
             </div>
           </div>

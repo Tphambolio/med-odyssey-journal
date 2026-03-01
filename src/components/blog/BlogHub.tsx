@@ -189,7 +189,7 @@ export function BlogHub() {
               />
               <div className="absolute bottom-3 right-3">
                 <Link
-                  to="/map"
+                  to="/"
                   className="flex items-center gap-2 px-3 py-2 bg-slate-800/90 backdrop-blur-sm text-sm text-slate-300 hover:text-white rounded-lg border border-slate-700 transition-colors"
                 >
                   <Map className="w-4 h-4" />
@@ -268,6 +268,20 @@ export function BlogHub() {
                       </span>
                     </div>
                   </div>
+
+                  {/* View on Map link */}
+                  {journal.stop && (
+                    <div className="mt-3 pt-3 border-t border-slate-700">
+                      <Link
+                        to={`/?stop=${journal.stop.id}`}
+                        onClick={(e) => e.stopPropagation()}
+                        className="inline-flex items-center gap-1.5 text-xs text-slate-500 hover:text-cyan-400 transition-colors"
+                      >
+                        <Map className="w-3.5 h-3.5" />
+                        View on Map
+                      </Link>
+                    </div>
+                  )}
                 </div>
               </Link>
             ))}

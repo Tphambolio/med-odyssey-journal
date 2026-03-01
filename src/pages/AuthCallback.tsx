@@ -16,7 +16,7 @@ export function AuthCallback() {
     <div className="min-h-screen bg-slate-900 flex items-center justify-center">
       <div className="text-center">
         <Anchor className="w-12 h-12 text-cyan-500 mx-auto mb-4 animate-pulse" />
-        <h2 className="text-xl font-semibold text-white mb-2">Signing you in...</h2>
+        <h2 className="text-xl font-semibold text-white mb-2">Completing sign-in...</h2>
         <p className="text-slate-400">You'll be redirected in a moment.</p>
       </div>
     </div>
