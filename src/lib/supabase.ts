@@ -8,22 +8,15 @@ if (!supabaseUrl || !supabaseAnonKey) {
   console.warn('Supabase credentials not configured. Please set VITE_SUPABASE_URL and VITE_SUPABASE_ANON_KEY in .env');
 }
 
-export const supabase = createClient(supabaseUrl, supabaseAnonKey);
+export const supabase = createClient(supabaseUrl, supabaseAnonKey, {
+  auth: {
+    flowType: 'pkce',
+  },
+});
 
 // Helper functions for common operations
 export const auth = supabase.auth;
 export const storage = supabase.storage;
-
-// Sign in with magic link
-export async function signInWithMagicLink(email: string) {
-  const { error } = await supabase.auth.signInWithOtp({
-    email,
-    options: {
-      emailRedirectTo: `${window.location.origin}/auth/callback`,
-    },
-  });
-  return { error };
-}
 
 // Sign out
 export async function signOut() {

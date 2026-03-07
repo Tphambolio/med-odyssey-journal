@@ -32,7 +32,7 @@ export function Header({ onAuthClick }: HeaderProps) {
             <span className="hidden sm:inline">Blog</span>
           </Link>
           <Link
-            to="/"
+            to="/map"
             className="flex items-center gap-2 px-3 py-2 text-sm text-slate-300 hover:text-white hover:bg-slate-700 rounded-lg transition-colors"
           >
             <Map className="w-4 h-4" />

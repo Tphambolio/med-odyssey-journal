@@ -8,7 +8,6 @@ interface AuthContextType {
   user: User | null;
   session: Session | null;
   loading: boolean;
-  signIn: (email: string) => Promise<{ error: Error | null }>;
   signInWithProvider: (provider: OAuthProvider) => Promise<{ error: Error | null }>;
   signOut: () => Promise<void>;
 }
@@ -40,16 +39,6 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     return () => subscription.unsubscribe();
   }, []);
 
-  const signIn = async (email: string) => {
-    const { error } = await supabase.auth.signInWithOtp({
-      email,
-      options: {
-        emailRedirectTo: `${window.location.origin}/auth/callback`,
-      },
-    });
-    return { error };
-  };
-
   const signInWithProvider = async (provider: OAuthProvider) => {
     const { error } = await supabase.auth.signInWithOAuth({
       provider: provider as Provider,
@@ -65,7 +54,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   };
 
   return (
-    <AuthContext.Provider value={{ user, session, loading, signIn, signInWithProvider, signOut }}>
+    <AuthContext.Provider value={{ user, session, loading, signInWithProvider, signOut }}>
       {children}
     </AuthContext.Provider>
   );
